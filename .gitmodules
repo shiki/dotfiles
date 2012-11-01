@@ -1,3 +1,81 @@
 [submodule ".zprezto"]
 	path = .zprezto
 	url = git://github.com/sorin-ionescu/prezto.git
+[submodule ".vim/bundle/ack"]
+	path = .vim/bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule ".vim/bundle/buffergator"]
+	path = .vim/bundle/buffergator
+	url = git://github.com/jeetsukumaran/vim-buffergator.git
+[submodule ".vim/bundle/bufkill"]
+	path = .vim/bundle/bufkill
+	url = git://github.com/vim-scripts/bufkill.vim.git
+[submodule ".vim/bundle/coffee-script"]
+	path = .vim/bundle/coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
+[submodule ".vim/bundle/delimitMate"]
+	path = .vim/bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule ".vim/bundle/fugitive"]
+	path = .vim/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/handlebars"]
+	path = .vim/bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
+[submodule ".vim/bundle/html-autoCloseTag"]
+	path = .vim/bundle/html-autoCloseTag
+	url = git://github.com/vim-scripts/HTML-AutoCloseTag.git
+[submodule ".vim/bundle/indent-guides"]
+	path = .vim/bundle/indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule ".vim/bundle/javascript"]
+	path = .vim/bundle/javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/json"]
+	path = .vim/bundle/json
+	url = git://github.com/vim-scripts/vim-json-bundle.git
+[submodule ".vim/bundle/molokai"]
+	path = .vim/bundle/molokai
+	url = git://github.com/tomasr/molokai.git
+[submodule ".vim/bundle/neocomplcache"]
+	path = .vim/bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/phpcomplete"]
+	path = .vim/bundle/phpcomplete
+	url = git://github.com/shawncplus/phpcomplete.vim.git
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule ".vim/bundle/surround"]
+	path = .vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule ".vim/bundle/taglist-plus"]
+	path = .vim/bundle/taglist-plus
+	url = git://github.com/int3/vim-taglist-plus.git
+[submodule ".vim/bundle/less"]
+	path = .vim/bundle/less
+	url = git://github.com/groenewege/vim-less.git
+[submodule ".vim/bundle/xptemplate"]
+	path = .vim/bundle/xptemplate
+	url = git://github.com/drmingdrmer/xptemplate.git
+[submodule ".vim/bundle/xptemplate-snippets"]
+	path = .vim/bundle/xptemplate-snippets
+	url = git://github.com/shiki/xptemplate-snippets.git
+[submodule ".vim/bundle/zoomWin"]
+	path = .vim/bundle/zoomWin
+	url = git://github.com/vim-scripts/ZoomWin.git

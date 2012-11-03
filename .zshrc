@@ -1,5 +1,7 @@
+DOTFILES=$HOME/.files
+
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.files/.oh-my-zsh
+ZSH=$DOTFILES/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -63,7 +65,7 @@ export PATH=$PATH:$HOME/Applications/phabricator/arcanist/bin
 
 # Z (https://github.com/rupa/z)
 export _Z_DATA=$HOME/.z-data
-. $HOME/.z/z.sh
+. $DOTFILES/.z/z.sh
 
 # Server
 function server() {

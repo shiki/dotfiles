@@ -42,6 +42,8 @@ set vb " Disable beep"
 set nobackup
 set noswapfile
 
+set wildmenu
+
 set splitright
 set splitbelow
 "set cpoptions+=$

@@ -21,3 +21,5 @@ export PATH=$PATH:$HOME/Applications/ec2-api-tools/bin
 # Phabricator / Arcanist
 export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin
 
+### Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

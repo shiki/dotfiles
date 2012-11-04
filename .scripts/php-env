@@ -1,0 +1,74 @@
+#!/usr/bin/env ruby
+
+# PHP Environment Bootstrap (made in ruby lol)
+
+require 'trollop'
+
+class Runner
+  @@commands = {
+    'mysql' => {
+      :start => 'mysql.server start',
+      :stop => 'mysql.server stop',
+    },
+    'nginx' => {
+      :start => 'sudo nginx',
+      :stop => 'sudo nginx -s stop',
+    },
+    'phpcgi' => {
+      :start => 'php-cgi -b 127.0.0.1:9000 &',
+      :stop => 'sudo killall php-cgi &',
+    },
+    'memcached' => {
+      :start => 'memcached -d',
+      :stop => 'killall memcached',
+    }
+  }
+
+  def start(service)
+    cmd = @@commands[service][:start]
+    puts "=> #{cmd}"
+    system cmd
+  end
+
+  def stop(service)
+    cmd = @@commands[service][:stop]
+    puts "=> #{cmd}"
+    system cmd
+  end
+
+  def execute
+    opts = Trollop::options do
+      banner <<-EOS
+PHP Environment Bootstrap
+EOS
+
+      opt :start, "Start"
+      opt :stop, "Stop"
+      opt :restart, "Restart"
+      opt :service, "Specific service only", :type => :string
+    end
+
+    services = ['mysql', 'nginx', 'phpcgi', 'memcached']
+    services = [opts.service] if opts.service_given
+
+    if opts.start then
+      services.each { |service| start service }
+    elsif opts.stop then
+      services.each { |service| stop service }
+    elsif opts.restart then
+      services.each { |service|
+        stop service
+        start service
+      }
+    end
+  end
+
+end
+
+
+runner = Runner.new
+runner.execute
+
+
+
+

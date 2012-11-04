@@ -36,24 +36,24 @@ plugins=(git vi-mode npm osx redis-cli gem)
 
 source $ZSH/oh-my-zsh.sh
 
-# MacPorts Installer addition on 2012-03-31_at_19:41:07: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+# Z (https://github.com/rupa/z)
+export _Z_DATA=$HOME/.z-data
+. $DOTFILES/.z/z.sh
+
+# Homebrew paths
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # PHP
-export PATH=$PATH:/opt/local/lib/php/pear/bin:
+export PATH=/usr/local/Cellar/php54/5.4.7/bin:$PATH
 
-# Python
-export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
-
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# Android SDK
-export PATH=$PATH:$HOME/Applications/android-sdk/platform-tools
+# Ruby 
+export PATH=/usr/local/Cellar/ruby/1.9.3-p286/bin:$PATH
 
 # Node
-export NODE_PATH=$NODE_PATH:/opt/local/lib/node:/opt/local/lib/node_modules
+export PATH=/usr/local/share/npm/bin:$PATH
+
+# Android SDK
+export PATH=$PATH:$HOME/Applications/android-sdks/platform-tools
 
 # EC2
 export JAVA_HOME=/usr
@@ -61,11 +61,7 @@ export EC2_HOME=$HOME/Applications/ec2-api-tools
 export PATH=$PATH:$HOME/Applications/ec2-api-tools/bin
 
 # Phabricator / Arcanist
-export PATH=$PATH:$HOME/Applications/phabricator/arcanist/bin
-
-# Z (https://github.com/rupa/z)
-export _Z_DATA=$HOME/.z-data
-. $DOTFILES/.z/z.sh
+export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin
 
 # Server
 function server() {

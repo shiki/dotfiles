@@ -1,0 +1,23 @@
+# Homebrew paths
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+# PHP
+export PATH=/usr/local/Cellar/php54/5.4.7/bin:$PATH
+
+# Ruby 
+export PATH=/usr/local/Cellar/ruby/1.9.3-p286/bin:$PATH
+
+# Node
+export PATH=/usr/local/share/npm/bin:$PATH
+
+# Android SDK
+export PATH=$PATH:$HOME/Applications/android-sdks/platform-tools
+
+# EC2
+export JAVA_HOME=/usr
+export EC2_HOME=$HOME/Applications/ec2-api-tools
+export PATH=$PATH:$HOME/Applications/ec2-api-tools/bin
+
+# Phabricator / Arcanist
+export PATH=$PATH:$HOME/Applications/arcanist/arcanist/bin
+

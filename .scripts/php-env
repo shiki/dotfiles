@@ -21,6 +21,10 @@ class Runner
     'memcached' => {
       :start => 'memcached -d',
       :stop => 'killall memcached',
+    },
+    'redis' => {
+      :start => 'redis-server /usr/local/etc/redis.conf',
+      :stop => 'kill `cat /usr/local/var/run/redis.pid`'
     }
   }
 
@@ -48,7 +52,7 @@ EOS
       opt :service, "Specific service only", :type => :string
     end
 
-    services = ['mysql', 'nginx', 'phpcgi', 'memcached']
+    services = ['mysql', 'nginx', 'phpcgi', 'memcached', 'redis']
     services = [opts.service] if opts.service_given
 
     if opts.start then

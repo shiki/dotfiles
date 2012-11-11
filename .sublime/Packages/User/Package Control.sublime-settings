@@ -1,7 +1,8 @@
 {
-	"auto_upgrade_last_run": 1352297703,
+	"auto_upgrade_last_run": 1352559727,
 	"installed_packages":
 	[
+		"Package Control",
 		"SublimeBlockCursor"
 	]
 }

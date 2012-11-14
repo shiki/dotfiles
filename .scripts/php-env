@@ -25,7 +25,11 @@ class Runner
     'redis' => {
       :start => 'redis-server /usr/local/etc/redis.conf',
       :stop => 'kill `cat /usr/local/var/run/redis.pid`'
-    }
+    },
+    'beanstalkd' => {
+      :start => 'beanstalkd -F -l 127.0.0.1 -p 11343 &',
+      :stop => 'sudo killall beanstalkd',
+    },
   }
 
   def start(service)

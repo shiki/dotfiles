@@ -86,3 +86,6 @@
 [submodule ".fonts/ttf-dejavu-powerline"]
 	path = .fonts/ttf-dejavu-powerline
 	url = git://gist.github.com/1630581.git
+[submodule ".vim/bundle/qargs"]
+	path = .vim/bundle/qargs
+	url = git://github.com/nelstrom/vim-qargs.git

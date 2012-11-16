@@ -89,3 +89,6 @@
 [submodule ".vim/bundle/qargs"]
 	path = .vim/bundle/qargs
 	url = git://github.com/nelstrom/vim-qargs.git
+[submodule ".vim/bundle/tabular"]
+	path = .vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git

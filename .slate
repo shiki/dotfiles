@@ -21,19 +21,19 @@ bind k:ctrl;cmd  push up    bar-resize:screenSizeY/2
 bind j:ctrl;cmd  push down  bar-resize:screenSizeY/2
 
 # Nudge Bindings
-bind right:shift;alt nudge +10% +0
-bind left:shift;alt  nudge -10% +0
-bind up:shift;alt    nudge +0   -10%
-bind down:shift;alt  nudge +0   +10%
+bind l:shift;alt nudge +10% +0
+bind h:shift;alt nudge -10% +0
+bind k:shift;alt nudge +0   -10%
+bind j:shift;alt nudge +0   +10%
 
 # Throw Bindings
-bind 1:ctrl;alt         throw 0 resize
-bind 2:ctrl;alt         throw 1 resize
-bind 3:ctrl;alt         throw 2 resize
-bind right:ctrl;alt;cmd throw right resize
-bind left:ctrl;alt;cmd  throw left  resize
-bind up:ctrl;alt;cmd    throw up    resize
-bind down:ctrl;alt;cmd  throw down  resize
+bind 1:ctrl;alt      throw 0 resize
+bind 2:ctrl;alt      throw 1 resize
+bind 3:ctrl;alt      throw 2 resize
+bind l:ctrl;alt;cmd  throw right 
+bind h:ctrl;alt;cmd  throw left  
+bind k:ctrl;alt;cmd  throw up    
+bind j:ctrl;alt;cmd  throw down  
 
 # Window Hints
 bind e:cmd hint

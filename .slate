@@ -12,11 +12,13 @@ config windowHintsIgnoreHiddenWindows false
 config windowHintsDuration 5
 config windowHintsSpread true
 
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+
 # Push Bindings
-bind right:ctrl;cmd  push right bar-resize:screenSizeX/2
-bind left:ctrl;cmd   push left  bar-resize:screenSizeX/2
-bind up:ctrl;cmd     push up    bar-resize:screenSizeY/2
-bind down:ctrl;cmd   push down  bar-resize:screenSizeY/2
+bind l:ctrl;cmd  push right bar-resize:screenSizeX/2
+bind h:ctrl;cmd  push left  bar-resize:screenSizeX/2
+bind k:ctrl;cmd  push up    bar-resize:screenSizeY/2
+bind j:ctrl;cmd  push down  bar-resize:screenSizeY/2
 
 # Nudge Bindings
 bind right:shift;alt nudge +10% +0
@@ -35,6 +37,9 @@ bind down:ctrl;alt;cmd  throw down  resize
 
 # Window Hints
 bind e:cmd hint
+
+# Resize bindings
+bind o:ctrl;cmd ${full}
 
 # Grid
 bind g:cmd grid padding:5 0:6,2 1:8,3

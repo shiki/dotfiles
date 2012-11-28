@@ -42,4 +42,4 @@ bind e:cmd hint
 bind o:ctrl;cmd ${full}
 
 # Grid
-bind g:cmd grid padding:5 0:6,2 1:8,3
+bind g:cmd grid padding:5 0:8,3 1:8,3

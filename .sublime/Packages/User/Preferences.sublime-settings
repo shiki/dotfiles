@@ -1,19 +1,19 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
 {
   "font_face": "DejaVu Sans Mono",
-  "font_size": 12,
-  "rulers": [100],
+  "font_size": 12.0,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+  ],
+  "open_files_in_new_window": false,
+  "rulers":
+  [
+    100
+  ],
+  "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "highlight_line": true,
   "trim_trailing_white_space_on_save": true,
-  "highlight_modified_tabs": true,
-
-  "open_files_in_new_window": false,
-  "show_full_path": true,
-
-  // VIM mode
-  "ignored_packages": [],
   "vintage_start_in_command_mode": true
 }

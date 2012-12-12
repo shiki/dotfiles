@@ -16,7 +16,7 @@ class Runner
     },
     'phpcgi' => {
       :start => 'php-cgi -b 127.0.0.1:9000 &',
-      :stop => 'sudo killall php-cgi &',
+      :stop => 'killall php-cgi',
     },
     'memcached' => {
       :start => 'memcached -d',
@@ -27,7 +27,7 @@ class Runner
       :stop => 'kill `cat /usr/local/var/run/redis.pid`'
     },
     'beanstalkd' => {
-      :start => 'beanstalkd -F -l 127.0.0.1 -p 11343 &',
+      :start => 'beanstalkd -F -l 127.0.0.1 -p 11300 &',
       :stop => 'sudo killall beanstalkd',
     },
   }
@@ -56,7 +56,7 @@ EOS
       opt :service, "Specific service only", :type => :string
     end
 
-    services = ['mysql', 'nginx', 'phpcgi', 'memcached', 'redis']
+    services = ['mysql', 'nginx', 'phpcgi', 'memcached', 'redis', 'beanstalkd']
     services = [opts.service] if opts.service_given
 
     if opts.start then

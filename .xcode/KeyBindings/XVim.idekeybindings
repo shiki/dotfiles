@@ -100,7 +100,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^l</string>
+				<string>^w</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -120,7 +120,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^$L</string>
+				<string>^$W</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -140,7 +140,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^@l</string>
+				<string>^l</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -160,7 +160,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~@l</string>
+				<string>^~l</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -180,7 +180,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~$@L</string>
+				<string>^~$L</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -200,7 +200,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^@h</string>
+				<string>^h</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -220,7 +220,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~@h</string>
+				<string>^~h</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -240,7 +240,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^~$@H</string>
+				<string>^~$H</string>
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
@@ -311,6 +311,8 @@
 				<string>jumpToNextCounterpart:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpart</string>
 				<key>Group</key>
@@ -331,6 +333,8 @@
 				<string>jumpToNextCounterpartWithAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithAlternate</string>
 				<key>Group</key>
@@ -351,6 +355,8 @@
 				<string>jumpToNextCounterpartWithShiftPlusAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithShiftPlusAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToNextCounterpartWithShiftPlusAlternate</string>
 				<key>Group</key>
@@ -371,6 +377,8 @@
 				<string>jumpToPreviousCounterpart:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpart</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpart</string>
 				<key>Group</key>
@@ -391,6 +399,8 @@
 				<string>jumpToPreviousCounterpartWithAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithAlternate</string>
 				<key>Group</key>
@@ -411,6 +421,8 @@
 				<string>jumpToPreviousCounterpartWithShiftPlusAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithShiftPlusAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.JumpToPreviousCounterpartWithShiftPlusAlternate</string>
 				<key>Group</key>
@@ -568,6 +580,7 @@
 		<dict>
 			<key></key>
 			<array>
+				<string>deleteToMark:</string>
 				<string>deleteToEndOfParagraph:</string>
 				<string>centerSelectionInVisibleArea:</string>
 			</array>

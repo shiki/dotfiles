@@ -108,6 +108,7 @@ let g:ctrlp_working_path_mode = 'rw'
 " From http://news.ycombinator.com/item?id=4470283
 "let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_user_command = "find %s -type f | egrep -v '/\.(git|hg|svn)|solr|tmp/' | egrep -v '\.(png|exe|jpg|gif|jar|class|swp|swo|log|gitkep|keepme|so|o)$'"
+let g:ctrlp_max_height = 20
 
 " http://stackoverflow.com/a/4800295/246142
 set completeopt+=longest

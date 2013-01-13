@@ -80,6 +80,13 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
+" XML folding
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+
+" PHP folding
+let g:php_folding=1
+au FileType php setlocal foldmethod=syntax nofoldenable
 
 " Powerline
 set laststatus=2 "Enable powerline for single buffers (no splits)

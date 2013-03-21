@@ -41,6 +41,9 @@ source $DOTFILES/.exports
 export _Z_DATA=$HOME/.z-data
 . $DOTFILES/.z/z.sh
 
+# Load Boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
 # Server
 function server() {
   local port="${1:-8000}"
@@ -48,5 +51,9 @@ function server() {
   python -m SimpleHTTPServer "$port"
 }
 
+# Disable gm alias cause it conflicts with graphicsmagick
+disable -a gm
+
 # Load other stuffs
 source $HOME/.extra
+

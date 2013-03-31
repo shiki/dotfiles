@@ -17,7 +17,7 @@ Contains .files for ZSH, Vim, and others.
         dotfiles/.slate    --> ~/.slate
         dotfiles/.vim      --> ~/.vim
         dotfiles/.vimrc    --> ~/.vimrc
-        dotfiles/.zprofile --> ~/.zprofiles
+        dotfiles/.zprofile --> ~/.zprofile
         dotfiles/.zshrc    --> ~/.zshrc
 
 4. Run `dotfiles/.osx` in Terminal. This sets up configs for Mac. Read the script before running it.

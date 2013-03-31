@@ -41,9 +41,6 @@ source $DOTFILES/.exports
 export _Z_DATA=$HOME/.z-data
 . $DOTFILES/.z/z.sh
 
-# Load Boxen
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
 # Server
 function server() {
   local port="${1:-8000}"

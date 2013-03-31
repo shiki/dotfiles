@@ -1,5 +1,17 @@
+# Load Boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+# Set default Node version
+export BOXEN_NVM_DEFAULT_VERSION=v0.10
+
+# NVM
+source /opt/boxen/nvm/nvm.sh
+
+# Node packages
+export PATH=$PATH:/opt/boxen/nvm/v0.10.0/bin
+
 # PHP
-#export PATH=/usr/local/Cellar/php54/5.4.7/bin:$PATH
+export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
 
 # Android SDK
 export PATH=$PATH:$HOME/Applications/android-sdks/platform-tools

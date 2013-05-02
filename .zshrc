@@ -35,7 +35,6 @@ ZSH_THEME="risto"
 plugins=(git vi-mode npm osx redis-cli gem)
 
 source $ZSH/oh-my-zsh.sh
-source $DOTFILES/.exports
 
 # Z (https://github.com/rupa/z)
 export _Z_DATA=$HOME/.z-data

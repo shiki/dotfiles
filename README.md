@@ -17,6 +17,7 @@ Contains configuration files for ZSH, VIM, XCode, Sublime Text, and others.
         dotfiles/.slate    --> ~/.slate
         dotfiles/.vim      --> ~/.vim
         dotfiles/.vimrc    --> ~/.vimrc
+        dotfiles/.zshenv   --> ~/.zshenv
         dotfiles/.zprofile --> ~/.zprofile
         dotfiles/.zshrc    --> ~/.zshrc
 

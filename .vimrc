@@ -85,7 +85,7 @@ let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 
 " PHP folding
-let g:php_folding=1
+let g:php_folding=0
 au FileType php setlocal foldmethod=syntax nofoldenable
 
 " Don't screw up folds when inserting text that might affect them, until

@@ -3,8 +3,11 @@
 set nocompatible
 
 call pathogen#infect()
+call pathogen#helptags()
 syntax on
 filetype plugin indent on
+
+let mapleader="," " Change <Leader> from \ to ,
 
 "let g:molokai_original = 1
 :colorscheme molokai
@@ -233,15 +236,18 @@ endif
 
 " XPTemplate
 " use <Tab> for completion
-"let g:xptemplate_key = '<Plug>triggerxpt'
-"inoremap <Plug>closePUM <C-v><C-v><BS>
-"imap <TAB> <Plug>closePUM<Plug>triggerxpt
-"let g:xptemplate_fallback = 'nore:<TAB>' " Optional. Use this only when you have no other plugin like SuperTab to handle <TAB>.
+let g:xptemplate_key = '<Plug>triggerxpt'
+inoremap <Plug>closePUM <C-v><C-v><BS>
+imap <TAB> <Plug>closePUM<Plug>triggerxpt
+let g:xptemplate_fallback = 'nore:<TAB>' " Optional. Use this only when you have no other plugin like SuperTab to handle <TAB>.
+
+let g:xptemplate_key_pum_only = '<S-Tab>'
 
 " No spaces (this doesn't seem to work)
 " let g:xptemplate_vars = "SParg=''"
 
 " break after opening function/class braces
 let g:xptemplate_vars = "BRfun=\n"
+
 
 

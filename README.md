@@ -14,12 +14,13 @@ Contains configuration files for ZSH, VIM, XCode, Sublime Text, and others.
   * Sublime Text 2
 3. Symlink these files to `$HOME`
 
-        dotfiles/.slate    --> ~/.slate
-        dotfiles/.vim      --> ~/.vim
-        dotfiles/.vimrc    --> ~/.vimrc
-        dotfiles/.zshenv   --> ~/.zshenv
-        dotfiles/.zprofile --> ~/.zprofile
-        dotfiles/.zshrc    --> ~/.zshrc
+        dotfiles/.slate     --> ~/.slate
+        dotfiles/.vim       --> ~/.vim
+        dotfiles/.vimrc     --> ~/.vimrc
+        dotfiles/.zshenv    --> ~/.zshenv
+        dotfiles/.zprofile  --> ~/.zprofile
+        dotfiles/.zshrc     --> ~/.zshrc
+        dotfiles/.gitconfig --> ~/.gitconfig
 
 4. Run `dotfiles/.osx` in Terminal. This sets up configs for Mac. Read the script before running it.
 

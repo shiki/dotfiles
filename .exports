@@ -4,12 +4,6 @@
 # Set default Node version
 export BOXEN_NVM_DEFAULT_VERSION=v0.10
 
-# NVM
-#source /opt/boxen/nvm/nvm.sh
-
-# Node packages
-#export PATH=$PATH:/opt/boxen/nvm/v0.10.0/bin
-
 # PHP
 export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
 
@@ -24,10 +18,11 @@ export PATH=/opt/boxen/homebrew/Cellar/ec2-api-tools/1.6.7/bin:$PATH
 # Phabricator / Arcanist
 export PATH=$PATH:$HOME/Applications/phabricator/arcanist/bin
 
-### Heroku Toolbelt
-#export PATH="/usr/local/heroku/bin:$PATH"
-
-#typeset -U PATH
-
 # Editor for arcanist
 export EDITOR=/usr/bin/vim
+
+# Ansible 
+pushd $HOME/Applications/ansible >> /dev/null
+source ./hacking/env-setup >> /dev/null
+popd >> /dev/null
+

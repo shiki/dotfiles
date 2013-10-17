@@ -1,0 +1,31 @@
+#! /bin/bash
+#fpmStart="sudo launchctl start net.php.php-fpm"
+fpmStart="php-fpm -D --fpm-config /opt/boxen/homebrew/etc/php/5.4/php-fpm.conf"
+#fpmPid="/usr/local/var/run/php-fpm.pid";
+fpmPid="/opt/boxen/homebrew/var/run/php-fpm.pid";
+
+case "$1" in
+    start)
+        echo "Starting php-fpm ...";
+        $fpmStart
+        exit 0
+        ;;
+    force-quit)
+        echo "Forcequiting php-fpm ...";
+        sudo kill `cat $fpmPid`A
+        exit 0
+        ;;
+    stop)
+        echo "Gracefully stopping php-fpm ...";
+        sudo kill -s QUIT `cat $fpmPid`
+        exit 0
+        ;;
+    reload)
+        echo "Reloading php-fpm ...";
+        sudo kill -s USR2 `cat $fpmPid`
+        exit 0
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|reload|force-quit}"
+        exit 1
+esac

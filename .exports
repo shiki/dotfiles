@@ -26,3 +26,5 @@ pushd $HOME/Applications/ansible >> /dev/null
 source ./hacking/env-setup >> /dev/null
 popd >> /dev/null
 
+# Cocoapods
+export LC_ALL="en_US.UTF-8"

@@ -197,9 +197,11 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w+\|\h\w*::\h\w\w'
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 
-" ejs support
 if has("autocmd")
-    au BufRead,BufNewFile *.ejs setfiletype html
+  " ejs support
+  au BufRead,BufNewFile *.ejs setfiletype html
+  " cocoapods
+  au BufNewFile,BufRead Podfile,*.podspec set filetype=ruby
 endif
 
 

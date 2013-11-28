@@ -1,6 +1,6 @@
 #! /bin/bash
 #fpmStart="sudo launchctl start net.php.php-fpm"
-fpmStart="php-fpm -D --fpm-config /opt/boxen/homebrew/etc/php/5.4/php-fpm.conf"
+fpmStart="php-fpm -D --fpm-config /opt/boxen/homebrew/etc/php/5.5/php-fpm.conf"
 #fpmPid="/usr/local/var/run/php-fpm.pid";
 fpmPid="/opt/boxen/homebrew/var/run/php-fpm.pid";
 

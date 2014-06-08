@@ -7,3 +7,6 @@
 [submodule ".fonts/ttf-dejavu-powerline"]
 	path = .fonts/ttf-dejavu-powerline
 	url = git://gist.github.com/1630581.git
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git

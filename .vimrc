@@ -29,6 +29,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/ZoomWin'
+Bundle 'Valloric/YouCompleteMe'
 
 
 " All of your Plugins must be added before the following line

@@ -145,4 +145,7 @@ let g:Powerline_symbols='fancy'
 " Lighten the comment color a little bit
 :hi Comment         guifg=#75715E
 
+" vim-go
+" Disable goimports and use gofmt for the fmt command:
+let g:go_fmt_command = "gofmt"
 

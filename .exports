@@ -4,6 +4,8 @@
 # Set default Node version
 export BOXEN_NVM_DEFAULT_VERSION=v0.10
 
+export PATH=/usr/local/bin:$PATH
+
 # PHP
 export PATH="$(brew --prefix josegonzalez/php/php55)/bin:$PATH"
 

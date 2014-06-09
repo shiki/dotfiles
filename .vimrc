@@ -30,6 +30,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'fatih/vim-go'
 
 
 " All of your Plugins must be added before the following line

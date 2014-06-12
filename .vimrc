@@ -87,6 +87,9 @@ set incsearch     " show search matches as you type
 set history=1000         " remember more commands and search history
 set undolevels=1000      " use many muchos levels of undo
 
+set splitright
+set splitbelow
+
 " Enable OS mouse clicking and scrolling
 "
 " Note for Mac OS X: Requires SIMBL and MouseTerm
@@ -148,4 +151,28 @@ let g:Powerline_symbols='fancy'
 " vim-go
 " Disable goimports and use gofmt for the fmt command:
 let g:go_fmt_command = "gofmt"
+
+" Syntastic
+" Error window will be automatically opened when errors are detected, and closed when none are detected.
+let g:syntastic_auto_loc_list = 1
+" Do syntax checks when buffers are first loaded as well as on saving
+let g:syntastic_check_on_open = 1
+let g:syntastic_php_checkers = ['php']
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+" CtrlP
+" r - the nearest ancestor that contains one of these directories or files:
+"     .git .hg .svn .bzr _darcs
+" w - begin finding a root from the current working directory outside of CtrlP
+"     instead of from the directory of the current file (default). Only applies
+"     when "r" is also present.
+let g:ctrlp_working_path_mode = 'rw'
+" e - jump when <cr> is pressed, but only to windows in the current tab.
+" t - jump when <c-t> is pressed, but only to windows in another tab.
+let g:ctrlp_switch_buffer = 'et'
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_match_window = 'bottom,min:1,max:20,results:50'
+
 

@@ -119,14 +119,23 @@ set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12.00
 " Margin
 set colorcolumn=100
 
-" Make + and - add a blank line below or above respectively
-nmap + :put =''<CR>
-nmap - :put! =''<CR>
-
 " Hide toolbar in MacVim http://jonatkinson.co.uk/removing-toolbar-macvim/
 if has("gui_running")
   set guioptions=egmrt
 endif
+
+" =================================================================================================
+" Maps
+" =================================================================================================
+
+" Make + and - add a blank line below or above respectively
+nmap + :put =''<CR>
+nmap - :put! =''<CR>
+
+" ctrl+l and ctrl+h to move to next and previous buffers
+" http://syskall.com/my-biggest-vim-productivity-boost/
+map <C-L> :bnext<CR>
+map <C-H> :bprev<CR>
 
 " =================================================================================================
 " Plugins configs
@@ -155,8 +164,6 @@ let g:go_fmt_command = "gofmt"
 " Syntastic
 " Error window will be automatically opened when errors are detected, and closed when none are detected.
 let g:syntastic_auto_loc_list = 1
-" Do syntax checks when buffers are first loaded as well as on saving
-let g:syntastic_check_on_open = 1
 let g:syntastic_php_checkers = ['php']
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

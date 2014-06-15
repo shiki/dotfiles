@@ -17,21 +17,22 @@ Plugin 'gmarik/Vundle.vim'
 
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Raimondi/delimitMate'
-Bundle 'tomasr/molokai.git'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'd11wtq/ctrlp_bdelete.vim'
 Bundle 'elzr/vim-json'
+Bundle 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'pangloss/vim-javascript'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'tomasr/molokai.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/ZoomWin'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'fatih/vim-go'
-Bundle 'scrooloose/nerdcommenter'
 
 
 " All of your Plugins must be added before the following line
@@ -183,4 +184,7 @@ let g:ctrlp_switch_buffer = 'et'
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_match_window = 'bottom,min:1,max:20,results:50'
 
+" CtrlP BDelete
+" Add a setting in CtrlP. Integrate functionality to delete buffers
+call ctrlp_bdelete#init()
 

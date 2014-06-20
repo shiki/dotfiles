@@ -75,6 +75,7 @@ set paste " Fix bad autoindent of pasted text
 set autoindent
 filetype plugin indent on
 
+set nowrap        " don't wrap lines
 set tabstop=2     " a tab is 2 spaces
 set expandtab
 set backspace=indent,eol,start " allow backspacing over everything in insert mode

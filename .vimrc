@@ -18,11 +18,13 @@ Plugin 'gmarik/Vundle.vim'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Raimondi/delimitMate'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'chase/vim-ansible-yaml'
 Bundle 'd11wtq/ctrlp_bdelete.vim'
 Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'pangloss/vim-javascript'
@@ -33,7 +35,6 @@ Bundle 'tomasr/molokai.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/ZoomWin'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -192,3 +193,6 @@ call ctrlp_bdelete#init()
 " vim-json
 " Disable quote-concealment
 let g:vim_json_syntax_conceal = 0
+
+" Tagbar
+nmap <F4> :TagbarToggle<CR>

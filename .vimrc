@@ -161,6 +161,12 @@ let g:Powerline_symbols='fancy'
 " Lighten the comment color a little bit
 :hi Comment         guifg=#75715E
 
+" YouCompleteMe
+" Auto-close the preview window after the user accepts the offered completion string
+let g:ycm_autoclose_preview_window_after_completion = 1
+" Auto-close the preview window after the user leaves insert mode.
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
 " vim-go
 " Disable goimports and use gofmt for the fmt command:
 let g:go_fmt_command = "gofmt"

@@ -1,4 +1,5 @@
 {
+	"detect_slow_plugins": false,
 	"enable_hexadecimal_encoding": false,
 	"font_face": "DejaVu Sans Mono for Powerline",
 	"font_size": 12.0,

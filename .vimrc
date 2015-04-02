@@ -17,6 +17,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Raimondi/delimitMate'
+Bundle 'SirVer/ultisnips'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'chase/vim-ansible-yaml'
 Bundle 'd11wtq/ctrlp_bdelete.vim'
@@ -168,8 +169,16 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " vim-go
-" Disable goimports and use gofmt for the fmt command:
-let g:go_fmt_command = "gofmt"
+" Enable goimports to automatically insert import paths instead of gofmt:
+let g:go_fmt_command = "goimports"
+" Set Ctrl+] to show definition of symbol under the cursor
+au FileType go nmap <C-]> <Plug>(go-def)
+" Enable syntax-highlighting for Functions, Methods and Structs
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
 
 " Syntastic
 " Error window will be automatically opened when errors are detected, and closed when none are detected.
@@ -202,3 +211,8 @@ let g:vim_json_syntax_conceal = 0
 
 " Tagbar
 nmap <F4> :TagbarToggle<CR>
+
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"

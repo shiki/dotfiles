@@ -1,25 +1,16 @@
-# Load Boxen
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+export JAVA_HOME=`/usr/libexec/java_home`
 
-# Set default Node version
-export BOXEN_NVM_DEFAULT_VERSION=v0.10.31
-
-# Set current Ruby version
-export RBENV_VERSION=2.1.0
-
-export PATH=/usr/local/bin:$PATH
-
-# PHP
-export PATH="$(brew --prefix josegonzalez/php/php55)/bin:$PATH"
+# Homebrew
+export BREW_CELLAR=/usr/local/Cellar
 
 # Android SDK
 export ANDROID_HOME=$HOME/Applications/adt/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/19.1.0:$ANDROID_HOME/tools
 
 # EC2
-export JAVA_HOME=`/usr/libexec/java_home`
-export EC2_HOME=/opt/boxen/homebrew/Cellar/ec2-api-tools/1.6.7/jars
-export PATH=/opt/boxen/homebrew/Cellar/ec2-api-tools/1.6.7/bin:$PATH
+export EC2_API_TOOLS_HOME=$BREW_CELLAR/ec2-api-tools/1.7.3.0
+export PATH=$PATH:$EC2_API_TOOLS_HOME/bin
+export EC2_HOME=$EC2_API_TOOLS_HOME/jars
 
 # Phabricator / Arcanist
 export PATH=$PATH:$HOME/Applications/phabricator/arcanist/bin
@@ -36,7 +27,7 @@ popd >> /dev/null
 export LC_ALL="en_US.UTF-8"
 
 # Go GOROOT bin
-export PATH=$PATH:/opt/boxen/homebrew/Cellar/go/1.3/libexec/bin
+export PATH=$PATH:$BREW_CELLAR/go/1.4.2/libexec/bin
 # Default GOPATH
 export GOPATH=$HOME/Projects/gopath
 export PATH=$PATH:$GOPATH/bin

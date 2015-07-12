@@ -55,6 +55,8 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
   1. Symlink `dotfiles/xcode/FontAndColorThemes.symlink` to `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
   2. Choose a theme in XCode > Preferences > Fonts & Colors
 
+Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xcode-themes).
+
 ### AppCode
 
 1. Import `dotfiles/.appcode/settings.jar`

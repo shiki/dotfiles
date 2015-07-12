@@ -11,10 +11,10 @@ Contains configuration files for VIM, XCode, and others.
   * MacVIM using `brew install macvim`
 3. Symlink these files to `$HOME`
 
-       dotfiles/.bash_profile --> ~/.bash_profile
-       dotfiles/.vim          --> ~/.vim
-       dotfiles/.vimrc        --> ~/.vimrc
-       dotfiles/.gitconfig    --> ~/.gitconfig
+        dotfiles/.bash_profile --> ~/.bash_profile
+        dotfiles/.vim          --> ~/.vim
+        dotfiles/.vimrc        --> ~/.vimrc
+        dotfiles/.gitconfig    --> ~/.gitconfig
 
 ###  VIM
 

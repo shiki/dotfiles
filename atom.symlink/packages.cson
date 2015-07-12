@@ -1,0 +1,11 @@
+packages: [
+  "dash"
+  "ex-mode"
+  "monokai"
+  "package-sync"
+  "pretty-json"
+  "project-manager"
+  "sort-lines"
+  "vim-mode"
+  "vim-surround"
+]

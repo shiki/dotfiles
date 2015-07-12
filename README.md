@@ -18,11 +18,17 @@ Contains configuration files for VIM, XCode, and others.
         dotfiles/.gitconfig    --> ~/.gitconfig
         dotfiles/atom.symlink  --> ~/.atom
 
+### Atom
+
+1. Install the [Package Sync](https://atom.io/packages/package-sync) package.
+2. Execute the `Sync` command to install the other packages.
+3. Restart Atom
+
 ###  VIM
 
-  1. Install all fonts for the Powerline plugin located in `dotfiles/.fonts`.
-  3. In MacVIM, run `:PluginInstall` to install all plugins
+1. Install all fonts for the Powerline plugin located in `dotfiles/.fonts`.
+3. In MacVIM, run `:PluginInstall` to install all plugins
 
 ### AppCode
 
-  1. Import `dotfiles/.appcode/settings.jar`
+1. Import `dotfiles/.appcode/settings.jar`

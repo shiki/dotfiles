@@ -1,7 +1,6 @@
 ## Shiki's .files
 
-Contains configuration files for VIM, XCode, and others.
-
+Contains MacOS configuration files for VIM, XCode, and others.
 
 ## Setup
 
@@ -18,6 +17,8 @@ Contains configuration files for VIM, XCode, and others.
         dotfiles/.gitconfig    --> ~/.gitconfig
         dotfiles/atom.symlink  --> ~/.atom
 
+4. Install the [Powerline fonts](https://github.com/powerline/fonts).
+
 ### Atom
 
 1. Install the [Package Sync](https://atom.io/packages/package-sync) package.
@@ -27,7 +28,9 @@ Contains configuration files for VIM, XCode, and others.
 ###  VIM
 
 1. Install all fonts for the Powerline plugin located in `dotfiles/.fonts`.
-3. In MacVIM, run `:PluginInstall` to install all plugins
+2. In MacVIM, run `:PluginInstall` to install all plugins
+
+The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
 
 ### AppCode
 

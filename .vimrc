@@ -18,7 +18,6 @@ Plugin 'gmarik/Vundle.vim'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'chase/vim-ansible-yaml'
 Bundle 'd11wtq/ctrlp_bdelete.vim'
 Bundle 'elzr/vim-json'

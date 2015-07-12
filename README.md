@@ -1,36 +1,59 @@
 ## Shiki's .files
 
-Contains MacOS configuration files for VIM, XCode, and others.
+Contains MacOS configuration files for VIM, Atom, Xcode, and others.
 
-## Setup
+### General
 
-1. Clone to a local dir. Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
-2. Install:
-  * BashIt (preferably via [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap))
+I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivotal-sprout/sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap) to manage the packages/apps installed in my Mac machines. I usually run that before setting up these dotfiles.
+
+1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
+2. Install these packages if they were not installed through sprout-wrap:
+  * [Bash it](https://github.com/Bash-it/bash-it) (preferably via )
   * MacVIM using `brew install macvim`
-  * Atom
-3. Symlink these files to `$HOME`
+  * [Atom](https://atom.io/)
+  * [iTerm2](https://www.iterm2.com/)
+3. Install the [Powerline fonts](https://github.com/powerline/fonts).
 
-        dotfiles/.bash_profile --> ~/.bash_profile
-        dotfiles/.vim          --> ~/.vim
-        dotfiles/.vimrc        --> ~/.vimrc
-        dotfiles/.gitconfig    --> ~/.gitconfig
-        dotfiles/atom.symlink  --> ~/.atom
+### Bash It
 
-4. Install the [Powerline fonts](https://github.com/powerline/fonts).
+1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+2. Restart Terminal or iTerm2
+
+### Git
+
+1. Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
 
 ### Atom
 
-1. Install the [Package Sync](https://atom.io/packages/package-sync) package.
-2. Execute the `Sync` command to install the other packages.
-3. Restart Atom
+1. Symlink `dotfiles/atom.symlink` to `~/.atom`
+2. Install the [Package Sync](https://atom.io/packages/package-sync) package.
+3. Execute the `Sync` command to install the other packages.
+4. Restart Atom
 
-###  VIM
+### MacVIM
 
-1. Install all fonts for the Powerline plugin located in `dotfiles/.fonts`.
-2. In MacVIM, run `:PluginInstall` to install all plugins
+1. Symlink these files:
 
-The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
+  * `dotfiles/.vim` to `~/.vim`
+  * `dotfiles/.vimrc` to `~/.vimrc`
+
+2. In MacVIM, run `:PluginInstall` to install all plugins. This instructs the [Vundle](https://github.com/VundleVim/Vundle.vim) package to install all the other packages managed by it.
+3. The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
+
+### Xcode
+
+1. Install [Alcatraz](http://alcatraz.io/).
+2. Install these plugins using Alcatraz:
+  * XVim
+  * ClangFormat
+  * FuzzyAutocomplete
+  * VVDocumenter
+3. For the custom XVim keybindings:
+  1. Symlink `dotfiles/xcode/KeyBindings/XVim.idekeybindings.symlink` to `~/Library/Developer/Xcode/UserData/XVim.idekeybindings`
+  2. Enable the keybinding in XCode > Preferences > Key Bindings
+4. Add the custom XCode color themes
+  1. Symlink `dotfiles/xcode/FontAndColorThemes.symlink` to `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
+  2. Choose a theme in XCode > Preferences > Fonts & Colors
 
 ### AppCode
 

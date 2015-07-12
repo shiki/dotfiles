@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:$PATH"
 export BASH_IT="/Users/Shiki/.bash_it"
 
 # Lock and Load a custom theme file
-export BASH_IT_THEME="bobby"
+export BASH_IT_THEME="NWinkler"
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
@@ -24,5 +24,3 @@ function server() {
   open "http://localhost:${port}/"
   python -m SimpleHTTPServer "$port"
 }
-
-

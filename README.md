@@ -9,12 +9,14 @@ Contains configuration files for VIM, XCode, and others.
 2. Install:
   * BashIt (preferably via [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap))
   * MacVIM using `brew install macvim`
+  * Atom
 3. Symlink these files to `$HOME`
 
         dotfiles/.bash_profile --> ~/.bash_profile
         dotfiles/.vim          --> ~/.vim
         dotfiles/.vimrc        --> ~/.vimrc
         dotfiles/.gitconfig    --> ~/.gitconfig
+        dotfiles/atom.symlink  --> ~/.atom
 
 ###  VIM
 

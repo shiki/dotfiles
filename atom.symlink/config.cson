@@ -1,0 +1,33 @@
+"*":
+  "exception-reporting":
+    userId: "b5e9ed16-683d-9615-f4cd-77c5567599d2"
+  "release-notes":
+    viewedVersion: "0.81.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "95a75129e47eb92c43bf3fb61f5bc320ceb00be2"
+  editor:
+    invisibles:
+      {}
+    fontFamily: "DejaVu Sans Mono for Powerline"
+    fontSize: 12
+    softTabs: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "autocomplete"
+    ]
+  "vim-mode":
+    {}
+  "tree-view":
+    {}
+  "autocomplete-plus":
+    navigateCompletions: "ctrl-p,ctrl-n"
+    confirmCompletion: "tab and enter"
+  "go-plus":
+    goInstallation: "/opt/boxen/homebrew/bin/go"
+    goPath: "~/Projects/gopath"

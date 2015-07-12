@@ -1,6 +1,7 @@
 packages: [
   "dash"
   "ex-mode"
+  "file-types"
   "monokai"
   "package-sync"
   "pretty-json"

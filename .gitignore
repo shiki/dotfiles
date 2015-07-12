@@ -2,3 +2,4 @@
 .zcompdump*
 .zhistory
 .netrwhist
+.vim/bundle

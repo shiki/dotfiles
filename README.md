@@ -8,7 +8,7 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
 2. Install these packages if they were not installed through sprout-wrap:
-  * [Bash it](https://github.com/Bash-it/bash-it) (preferably via )
+  * [Bash it](https://github.com/Bash-it/bash-it)
   * MacVIM using `brew install macvim`
   * [Atom](https://atom.io/)
   * [iTerm2](https://www.iterm2.com/)

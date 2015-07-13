@@ -8,11 +8,11 @@
   metrics:
     userId: "95a75129e47eb92c43bf3fb61f5bc320ceb00be2"
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     fontFamily: "DejaVu Sans Mono for Powerline"
     fontSize: 12
     softTabs: false
+    preferredLineLength: 100
   core:
     themes: [
       "atom-dark-ui"
@@ -21,10 +21,11 @@
     disabledPackages: [
       "autocomplete"
     ]
-  "vim-mode":
-    {}
-  "tree-view":
-    {}
+  "vim-mode": {}
+  "tree-view": {}
+  "file-types":
+    form: "source.json"
+    ticket: "source.json"
   "autocomplete-plus":
     navigateCompletions: "ctrl-p,ctrl-n"
     confirmCompletion: "tab and enter"

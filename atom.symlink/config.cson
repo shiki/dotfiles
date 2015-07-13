@@ -14,10 +14,6 @@
     softTabs: false
     preferredLineLength: 100
   core:
-    themes: [
-      "atom-dark-ui"
-      "monokai"
-    ]
     disabledPackages: [
       "autocomplete"
     ]

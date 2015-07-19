@@ -44,12 +44,13 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 1. Install [Alcatraz](http://alcatraz.io/).
 2. Install these plugins using Alcatraz:
-  * XVim
   * ClangFormat
   * FuzzyAutocomplete
-  * VVDocumenter-Xcode
-  * XcodeColors
   * OMQuickHelp
+  * VVDocumenter-Xcode
+  * XCActionBar
+  * XcodeColors
+  * XVim
 3. For the custom XVim keybindings:
   1. Symlink `dotfiles/xcode/KeyBindings/XVim.idekeybindings.symlink` to `~/Library/Developer/Xcode/UserData/XVim.idekeybindings`
   2. Enable the keybinding in XCode > Preferences > Key Bindings

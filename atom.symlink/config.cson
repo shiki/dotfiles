@@ -12,19 +12,14 @@
     fontFamily: "DejaVu Sans Mono for Powerline"
     fontSize: 12
     softTabs: false
-    preferredLineLength: 100
-  core:
-    disabledPackages: [
-      "autocomplete"
-    ]
+    preferredLineLength: 120
   "vim-mode": {}
   "tree-view": {}
   "file-types":
     form: "source.json"
     ticket: "source.json"
-  "autocomplete-plus":
-    navigateCompletions: "ctrl-p,ctrl-n"
-    confirmCompletion: "tab and enter"
-  "go-plus":
-    goInstallation: "/opt/boxen/homebrew/bin/go"
-    goPath: "~/Projects/gopath"
+    "form-min": "source.json"
+  "linter-flake8":
+    executableDir: "/usr/local/bin"
+  "autocomplete-plus": {}
+  core: {}

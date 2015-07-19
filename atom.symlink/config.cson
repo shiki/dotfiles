@@ -21,5 +21,8 @@
     "form-min": "source.json"
   "linter-flake8":
     executableDir: "/usr/local/bin"
+    maxLineLength: 120
   "autocomplete-plus": {}
   core: {}
+  linter:
+    lintOnFly: false

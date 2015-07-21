@@ -44,6 +44,7 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 1. Install [Alcatraz](http://alcatraz.io/).
 2. Install these plugins using Alcatraz:
+  * [Backlight](https://github.com/limejelly/Backlight-for-XCode)
   * ClangFormat
   * FuzzyAutocomplete
   * OMQuickHelp

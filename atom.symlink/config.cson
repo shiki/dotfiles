@@ -13,12 +13,9 @@
     fontSize: 12
     softTabs: false
     preferredLineLength: 120
+    tabLength: 4
   "vim-mode": {}
   "tree-view": {}
-  "file-types":
-    form: "source.json"
-    ticket: "source.json"
-    "form-min": "source.json"
   "linter-flake8":
     executableDir: "/usr/local/bin"
     maxLineLength: 120

@@ -30,6 +30,40 @@
 	<string>0.70156 0.723031 0.767213 1</string>
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.705792 0.8 0.544 1</string>
+	<key>DVTMarkupTextBackgroundColor</key>
+	<string>0.196054 0.208679 0.240548 1</string>
+	<key>DVTMarkupTextBorderColor</key>
+	<string>0.26037 0.271985 0.301304 1</string>
+	<key>DVTMarkupTextCodeFont</key>
+	<string>DejaVuSansMonoForPowerline - 11.0</string>
+	<key>DVTMarkupTextEmphasisColor</key>
+	<string>0.70156 0.723031 0.767213 1</string>
+	<key>DVTMarkupTextEmphasisFont</key>
+	<string>.HelveticaNeueDeskInterface-Italic - 11.0</string>
+	<key>DVTMarkupTextLinkColor</key>
+	<string>0.772607 0.450947 0.368476 1</string>
+	<key>DVTMarkupTextLinkFont</key>
+	<string>.HelveticaNeueDeskInterface-Regular - 11.0</string>
+	<key>DVTMarkupTextNormalColor</key>
+	<string>0.70156 0.723031 0.767213 1</string>
+	<key>DVTMarkupTextNormalFont</key>
+	<string>.HelveticaNeueDeskInterface-Regular - 11.0</string>
+	<key>DVTMarkupTextOtherHeadingColor</key>
+	<string>0.70156 0.723031 0.767213 0.5</string>
+	<key>DVTMarkupTextOtherHeadingFont</key>
+	<string>.HelveticaNeueDeskInterface-Regular - 15.4</string>
+	<key>DVTMarkupTextPrimaryHeadingColor</key>
+	<string>0.70156 0.723031 0.767213 1</string>
+	<key>DVTMarkupTextPrimaryHeadingFont</key>
+	<string>.HelveticaNeueDeskInterface-Regular - 26.4</string>
+	<key>DVTMarkupTextSecondaryHeadingColor</key>
+	<string>0.70156 0.723031 0.767213 1</string>
+	<key>DVTMarkupTextSecondaryHeadingFont</key>
+	<string>.HelveticaNeueDeskInterface-Regular - 19.8</string>
+	<key>DVTMarkupTextStrongColor</key>
+	<string>0.70156 0.723031 0.767213 1</string>
+	<key>DVTMarkupTextStrongFont</key>
+	<string>.HelveticaNeueDeskInterface-Bold - 11.0</string>
 	<key>DVTSourceTextBackground</key>
 	<string>0.126146 0.139869 0.174509 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>

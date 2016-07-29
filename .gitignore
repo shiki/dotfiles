@@ -9,12 +9,3 @@
 # VIM
 .vim/bundle
 
-# Atom
-atom.symlink/.apm
-atom.symlink/.node-gyp
-atom.symlink/.storage
-atom.symlink/compile-cache/
-atom.symlink/packages
-atom.symlink/storage
-atom.symlink/themes
-atom.symlink/projects.cson

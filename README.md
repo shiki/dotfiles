@@ -23,9 +23,30 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 1. Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
 
+### Sublime Text 3
+
+1. Install [Sublime Text 3](https://www.sublimetext.com/3)
+
+   ```
+   brew cask install sublime-text
+   ```
+
+2. Install [Package Control](https://packagecontrol.io/installation)
+3. Close Sublime Text
+4. Replace configuration files
+
+   ```
+   rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+   ln -s ~/.files/sublime-text/Packages/User.symlink ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+   ```
+
 ### Atom
 
-1. Symlink `dotfiles/atom.symlink` to `~/.atom`
+1. Replace `~/.atom`
+   ```
+   rm -rf ~/.atom
+   ln -s ~/.files/atom.symlink ~/.atom
+   ```
 2. Install the [Package Sync](https://atom.io/packages/package-sync) package.
 3. Execute the `Sync` command to install the other packages.
 4. Restart Atom

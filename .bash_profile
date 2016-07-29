@@ -6,7 +6,7 @@ export PATH="/usr/local/bin:$PATH"
 export BASH_IT="$HOME/.bash_it"
 
 # Lock and Load a custom theme file
-export BASH_IT_THEME="NWinkler"
+export BASH_IT_THEME="Powerline"
 
 # Don't check mail when opening terminal.
 unset MAILCHECK

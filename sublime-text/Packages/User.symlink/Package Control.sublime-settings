@@ -5,6 +5,9 @@
 	],
 	"installed_packages":
 	[
-		"Evernote"
+		"Evernote",
+		"MarkdownHighlighting",
+		"Package Control",
+		"ProjectManager"
 	]
 }

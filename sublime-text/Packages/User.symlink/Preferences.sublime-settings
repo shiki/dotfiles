@@ -1,4 +1,5 @@
 {
+	"close_windows_when_empty": true,
 	"font_face": "Dejavu Sans Mono for Powerline",
 	"font_size": 12,
 	"ignored_packages":

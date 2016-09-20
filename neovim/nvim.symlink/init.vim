@@ -25,6 +25,8 @@ Plug 'othree/jspc.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mileszs/ack.vim'
 
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " --------------------------------------------------------------------------------------------------
@@ -66,6 +68,9 @@ set laststatus=2
 set noshowcmd                         
 " don't show -- INSERT -- in cmdline
 set noshowmode                        
+
+" no beeps or flashes
+set visualbell t_vb=
 
 " --------------------------------------------------------------------------------------------------
 " Basic
@@ -110,7 +115,6 @@ set fillchars=vert:│
 " remember undo after quitting
 set hidden                            
 
-
 " --------------------------------------------------------------------------------------------------
 " Saving
 " --------------------------------------------------------------------------------------------------
@@ -141,6 +145,9 @@ set notimeout
 set ttimeout 
 set ttimeoutlen=10
 
+" Make vim use the system clipboard
+set clipboard^=unnamed,unnamedplus
+
 " --------------------------------------------------------------------------------------------------
 " Navigation
 " --------------------------------------------------------------------------------------------------
@@ -167,6 +174,16 @@ endif
 let g:syntastic_javascript_checkers = ['eslint']
 
 " --------------------------------------------------------------------------------------------------
+" FZF
+" --------------------------------------------------------------------------------------------------
+nnoremap <C-P> :Files<cr>
+
+" Mapping selecting mappings
+nmap <leader><tab> <plug>(fzf-maps-n)
+xmap <leader><tab> <plug>(fzf-maps-x)
+omap <leader><tab> <plug>(fzf-maps-o)
+
+" --------------------------------------------------------------------------------------------------
 " Unite
 " --------------------------------------------------------------------------------------------------
 " Refs: 
@@ -174,10 +191,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 "   https://gist.github.com/copitux/6434354
 "   https://github.com/wikimatze/vimfiles/blob/master/settings/unite.vim
 "
-nnoremap <C-P>    :Unite -buffer-name=files -start-insert file_rec/async:!<cr>
-nnoremap <space>/ :Unite -no-empty -no-resize grep<cr>
-nnoremap <space>s :Unite -quick-match buffer<cr>
-
 let g:unite_prompt = '» '
 let g:unite_winheight = 15
 let g:unite_update_time = 200

@@ -1,6 +1,5 @@
-
 " change the leader to be a comma vs slash
-let mapleader=","              
+let mapleader=","
 
 call plug#begin()
 
@@ -12,20 +11,15 @@ Plug 'Shougo/unite.vim'
     \| Plug 'tsukkee/unite-tag'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
 Plug 'sheerun/vim-polyglot'
 
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install --global tern' }
-Plug 'heavenshell/vim-jsdoc'
-Plug 'moll/vim-node'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'othree/jspc.vim'
+"Plug 'heavenshell/vim-jsdoc'
+"Plug 'moll/vim-node'
+"Plug 'othree/javascript-libraries-syntax.vim'
+"Plug 'othree/jspc.vim'
 
 Plug 'itchyny/lightline.vim'
 Plug 'mileszs/ack.vim'
-
-Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 
 Plug 'joshdick/onedark.vim'
 
@@ -83,7 +77,7 @@ set expandtab
 set shiftwidth=2  " number of spaces to use for autoindenting
 " Alignment tabs are two spaces, and never tabs. Negative means use same as
 " shiftwidth (so the 2 actually doesn't matter).
-set softtabstop=-2
+"set softtabstop=2
 " real tabs render width. Applicable to HTML, PHP, anything using real tabs.
 " I.e., not applicable to JS.
 set tabstop=2     
@@ -145,7 +139,7 @@ set ttimeout
 set ttimeoutlen=10
 
 " Make vim use the system clipboard
-set clipboard^=unnamed,unnamedplus
+set clipboard=unnamed
 
 " --------------------------------------------------------------------------------------------------
 " Navigation
@@ -194,17 +188,7 @@ endif
 " --------------------------------------------------------------------------------------------------
 
 " Use ESLint
-let g:syntastic_javascript_checkers = ['eslint']
-
-" --------------------------------------------------------------------------------------------------
-" FZF
-" --------------------------------------------------------------------------------------------------
-nnoremap <C-P> :Files<cr>
-
-" Mapping selecting mappings
-nmap <leader><tab> <plug>(fzf-maps-n)
-xmap <leader><tab> <plug>(fzf-maps-x)
-omap <leader><tab> <plug>(fzf-maps-o)
+"let g:syntastic_javascript_checkers = ['eslint']
 
 " --------------------------------------------------------------------------------------------------
 " Unite
@@ -230,3 +214,4 @@ function! s:unite_settings()
   imap <buffer> <C-j> <Plug>(unite_select_next_line)
   imap <buffer> <C-k> <Plug>(unite_select_previous_line)
 endfunction
+

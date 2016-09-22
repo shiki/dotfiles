@@ -9,6 +9,7 @@ Plug 'Shougo/unite.vim'
     \| Plug 'Shougo/vimfiler.vim'
     \| Plug 'Shougo/unite-outline'
     \| Plug 'tsukkee/unite-tag'
+    \| Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 Plug 'sheerun/vim-polyglot'
@@ -207,6 +208,7 @@ nnoremap <space>o :Unite -buffer-name=files -start-insert file_rec/async:!<cr>
 nnoremap <space>p :Unite -start-insert file_rec/git:!<cr>
 nnoremap <space>s :Unite -quick-match buffer<cr>
 nnoremap <space>i :Unite outline<cr>
+nnoremap <space>m :Unite file_mru<cr>
 
 let g:unite_prompt = '» '
 let g:unite_winheight = 15

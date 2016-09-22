@@ -65,6 +65,10 @@ set noshowmode
 " no beeps or flashes
 set visualbell t_vb=
 
+" Hide scrollbar
+set guioptions-=L
+set guioptions-=r
+
 " --------------------------------------------------------------------------------------------------
 " Basic
 " --------------------------------------------------------------------------------------------------
@@ -198,20 +202,34 @@ endif
 "   https://gist.github.com/copitux/6434354
 "   https://github.com/wikimatze/vimfiles/blob/master/settings/unite.vim
 "
+
+nnoremap <space>o :Unite -buffer-name=files -start-insert file_rec/async:!<cr>
+nnoremap <space>p :Unite -start-insert file_rec/git:!<cr>
+nnoremap <space>s :Unite -quick-match buffer<cr>
+nnoremap <space>i :Unite outline<cr>
+
 let g:unite_prompt = '» '
 let g:unite_winheight = 15
+let g:unite_split_rule = 'botright'
 let g:unite_update_time = 200
-let g:unite_source_rec_async_command = ['ag', '--follow', '--nocolor', '--nogroup', '--hidden', '-g', '']
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()
-  nmap <buffer> <ESC> <Plug>(unite_exit)
-
-  imap <silent><buffer><expr> <C-s> unite#do_action('split')
-  imap <silent><buffer><expr> <C-v> unite#do_action('vsplit')
-  imap <silent><buffer><expr> <C-t> unite#do_action('tabopen')
-
   imap <buffer> <C-j> <Plug>(unite_select_next_line)
   imap <buffer> <C-k> <Plug>(unite_select_previous_line)
+
+  nmap <silent><buffer><expr> Enter unite#do_action('switch')
+  nmap <silent><buffer><expr> <C-t> unite#do_action('tabswitch')
+  nmap <silent><buffer><expr> <C-s> unite#do_action('splitswitch')
+  nmap <silent><buffer><expr> <C-v> unite#do_action('vsplitswitch')
+
+  imap <silent><buffer><expr> Enter unite#do_action('switch')
+  imap <silent><buffer><expr> <C-t> unite#do_action('tabswitch')
+  imap <silent><buffer><expr> <C-s> unite#do_action('splitswitch')
+  imap <silent><buffer><expr> <C-v> unite#do_action('vsplitswitch')
+
+  map <buffer> <C-p> <Plug>(unite_toggle_auto_preview)
+
+  nnoremap <ESC> :UniteClose<cr>
 endfunction
 

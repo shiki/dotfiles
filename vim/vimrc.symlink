@@ -124,7 +124,7 @@ set noswapfile
 
 set backupskip=/tmp/*
 set backupskip+=,/private/tmp/*"
-execute 'set backupdir=~/.config/nvim/.tmp/backup//'
+execute 'set backupdir=~/.vim/.tmp/backup//'
 set backup
 
 " undo files
@@ -132,7 +132,7 @@ set backup
 set undofile
 set undolevels=1000
 set undoreload=10000
-execute 'set undodir=~/.config/nvim/.tmp/undo//'
+execute 'set undodir=~/.vim/.tmp/undo//'
 
 " --------------------------------------------------------------------------------------------------
 " Editing

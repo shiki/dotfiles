@@ -6,5 +6,8 @@
 
 .netrwhist
 
+# VIM
+vim/vim.symlink/.tmp
+
 # Sublime Text projects
 sublime-text/Packages/User.symlink/Projects

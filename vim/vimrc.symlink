@@ -239,6 +239,13 @@ function! s:unite_settings()
 endfunction
 
 " --------------------------------------------------------------------------------------------------
+" VimFiler
+" --------------------------------------------------------------------------------------------------
+
+nnoremap <space>f :VimFilerCurrentDir -buffer-name=current-dir -force-quit -toggle -split<cr>
+nnoremap <space>d :VimFilerBufferDir -buffer-name=buffer-dir -force-quit -toggle -split<cr>
+
+" --------------------------------------------------------------------------------------------------
 " Neocomplete
 " --------------------------------------------------------------------------------------------------
 

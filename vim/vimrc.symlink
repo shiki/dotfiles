@@ -209,7 +209,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 nnoremap <space>o :Unite -buffer-name=files -start-insert file_rec/async:!<cr>
 nnoremap <space>p :Unite -start-insert file_rec/git:!<cr>
-nnoremap <space>s :Unite -quick-match buffer<cr>
+nnoremap <space>s :Unite -buffer-name=buffers -start-insert buffer<cr>
 nnoremap <space>i :Unite outline<cr>
 nnoremap <space>m :Unite file_mru<cr>
 
@@ -217,6 +217,8 @@ let g:unite_prompt = '» '
 let g:unite_winheight = 15
 let g:unite_split_rule = 'botright'
 let g:unite_update_time = 200
+
+call unite#filters#sorter_default#use(['sorter_reverse'])
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()

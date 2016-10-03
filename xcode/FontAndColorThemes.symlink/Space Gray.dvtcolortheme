@@ -40,6 +40,8 @@
 	<string>0.70156 0.723031 0.767213 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
 	<string>.HelveticaNeueDeskInterface-Italic - 11.0</string>
+	<key>DVTMarkupTextInlineCodeColor</key>
+	<string>0.70156 0.723031 0.767213 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.772607 0.450947 0.368476 1</string>
 	<key>DVTMarkupTextLinkFont</key>

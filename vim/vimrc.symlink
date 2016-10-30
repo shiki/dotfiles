@@ -158,6 +158,10 @@ execute 'set undodir=~/.vim/.tmp/undo//'
 nmap + :put =''<CR>
 nmap - :put! =''<CR>
 
+" Make C-c behave similarly to Esc
+" http://stackoverflow.com/questions/80677/what-is-the-difference-between-c-c-and-c-in-vim
+inoremap <C-c> <Esc><Esc>
+
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout 
 set ttimeout 

@@ -265,8 +265,9 @@ endfunction
 " VimFiler
 " --------------------------------------------------------------------------------------------------
 
-nnoremap <space>f :VimFilerCurrentDir -buffer-name=current-dir -force-quit -toggle -split<cr>
-nnoremap <space>d :VimFilerBufferDir -buffer-name=buffer-dir -force-quit -toggle -split<cr>
+nnoremap <space>f :VimFilerCurrentDir -buffer-name=vimfiler -no-quit -split<cr>
+nnoremap <space>d :VimFilerBufferDir -buffer-name=vimfiler -no-quit -split<cr>
+nnoremap <space>v :VimFiler -buffer-name=vimfiler -no-quit -split<cr>
 
 " --------------------------------------------------------------------------------------------------
 " Neocomplete

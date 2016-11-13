@@ -269,6 +269,10 @@ nnoremap <space>f :VimFilerCurrentDir -buffer-name=vimfiler -no-quit -split<cr>
 nnoremap <space>d :VimFilerBufferDir -buffer-name=vimfiler -no-quit -split<cr>
 nnoremap <space>v :VimFiler -buffer-name=vimfiler -no-quit -split<cr>
 
+autocmd FileType vimfiler nnoremap <silent><buffer><expr> <C-t> vimfiler#do_action('tabopen')
+autocmd FileType vimfiler nnoremap <silent><buffer><expr> <C-s> vimfiler#do_switch_action('split')
+autocmd FileType vimfiler nnoremap <silent><buffer><expr> <C-v> vimfiler#do_switch_action('vsplit')
+
 " --------------------------------------------------------------------------------------------------
 " Neocomplete
 " --------------------------------------------------------------------------------------------------

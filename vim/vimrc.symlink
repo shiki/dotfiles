@@ -29,6 +29,7 @@ Plug 'joshdick/onedark.vim'
 
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 
 Plug 'Konfekt/FastFold'
 Plug 'jiangmiao/auto-pairs'

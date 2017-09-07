@@ -17,7 +17,7 @@ $ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-t
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git
+$ brew install rbenv nvm git carthage
 ```
 
 ### Install others
@@ -50,6 +50,12 @@ These aren't installed through Homebrew
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
 2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
 3. Restart Terminal or iTerm2
+4. Enable plugins
+
+   ```bash
+   $ bash-it enable plugin git
+   $ bash-it enable alias git
+   ```
 
 ### Git
 
@@ -102,15 +108,28 @@ $ ln -s ~/.files/.gitconfig ~/.gitconfig
 ### Xcode
 
 1. Intall XVim plugin
-3. For the custom XVim keybindings:
-  1. Symlink `dotfiles/xcode/KeyBindings/XVim.idekeybindings.symlink` to `~/Library/Developer/Xcode/UserData/XVim.idekeybindings`
+2. For the custom XVim keybindings:
+  1. Symlink `XVim.idekeybindings.symlink`
+     ```bash
+     $ ln -s ~/.files/xcode/KeyBindings/XVim.idekeybindings.symlink ~/Library/Developer/Xcode/UserData/KeyBindings/XVim.idekeybindings
+     ```
   2. Enable the keybinding in XCode > Preferences > Key Bindings
 4. Add the custom XCode color themes
   1. Symlink `dotfiles/xcode/FontAndColorThemes.symlink` to `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
+     ```bash
+     $ ln -s ~/.files/xcode/FontAndColorThemes.symlink ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+     ```
   2. Choose a theme in XCode > Preferences > Fonts & Colors
+  3. Manually change the Font for the theme
 
 Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xcode-themes).
 
 ### AppCode
 
 1. Import `dotfiles/.appcode/settings.jar`
+
+### Alfred
+
+Install powerpacks
+
+* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)

@@ -1,40 +1,43 @@
 " change the leader to be a comma vs slash
 let mapleader=","
 
-call plug#begin()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
 
 " Plugin choices were initially based on https://davidosomething.com/blog/vim-for-javascript/
 
-Plug 'Shougo/unite.vim'
-    \| Plug 'Shougo/vimfiler.vim'
-    \| Plug 'Shougo/unite-outline'
-    \| Plug 'tsukkee/unite-tag'
-    \| Plug 'Shougo/neomru.vim'
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plugin 'Shougo/unite.vim'
+    \| Plugin 'Shougo/vimfiler.vim'
+    \| Plugin 'Shougo/unite-outline'
+    \| Plugin 'tsukkee/unite-tag'
+    \| Plugin 'Shougo/neomru.vim'
+Plugin 'Shougo/vimproc.vim', { 'do': 'make' }
 
-Plug 'Shougo/neocomplete.vim'
+Plugin 'Shougo/neocomplete.vim'
 
-Plug 'sheerun/vim-polyglot'
+Plugin 'sheerun/vim-polyglot'
 
-Plug 'moll/vim-node'
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'othree/javascript-libraries-syntax.vim'
+Plugin 'moll/vim-node'
+Plugin 'marijnh/tern_for_vim', { 'do': 'npm install' }
+Plugin 'othree/javascript-libraries-syntax.vim'
 "Plug 'othree/jspc.vim'
-Plug 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
-Plug 'itchyny/lightline.vim'
-Plug 'mileszs/ack.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'mileszs/ack.vim'
 
-Plug 'joshdick/onedark.vim'
+Plugin 'joshdick/onedark.vim'
 
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
 
-Plug 'Konfekt/FastFold'
-Plug 'jiangmiao/auto-pairs'
+Plugin 'Konfekt/FastFold'
+Plugin 'jiangmiao/auto-pairs'
 
-call plug#end()
+call vundle#end()
 
 " --------------------------------------------------------------------------------------------------
 " UI

@@ -35,6 +35,16 @@ These aren't installed through Homebrew
 * Copay
 * Lightshot
 
+### macOS
+
+1. Set to always show hidden files
+
+   ```bash
+   defaults write -g AppleShowAllFiles -bool true
+   ```
+   
+   Restart Finder.
+
 ### Bash-it
 
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.

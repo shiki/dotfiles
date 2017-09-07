@@ -1,23 +1,45 @@
-## Shiki's .files
+## Jayson's .files and macOS setup
 
-Contains MacOS configuration files for VIM, Atom, Xcode, and others.
+Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
-### General
+### Setup
 
-I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivotal-sprout/sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap) to manage the packages/apps installed in my Mac machines. I usually run that before setting up these dotfiles.
+1. Update everything that is available in the App Store
+2. Install Xcode
+3. Install Homebrew
+
+### Install Homebrew packages
+
+```
+$ brew tap caskroom/cask
+$ brew cask install dropbox google-chrome spotify slack skype firefox evernote
+$ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck mysqlworkbench psequel
+$ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
+$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
+$ brew install Caskroom/versions/google-chrome-canary
+$ brew install rbenv nvm git
+```
+
+### Install others
+
+These aren't installed through Homebrew
+
+* [Bash it](https://github.com/Bash-it/bash-it)
+* [Powerline fonts](https://github.com/powerline/fonts)
+* Lastpass
+* Todoist
+* Tick Tick
+* Caato Time Tracker
+* Tomato One
+* Pocket
+* Copay
+* Lightshot
+
+### Bash-it
 
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
-2. Install these packages if they were not installed through sprout-wrap:
-  * [Bash it](https://github.com/Bash-it/bash-it)
-  * MacVIM using `brew install macvim`
-  * [Atom](https://atom.io/)
-  * [iTerm2](https://www.iterm2.com/)
-3. Install the [Powerline fonts](https://github.com/powerline/fonts).
-
-### Bash It
-
-1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
-2. Restart Terminal or iTerm2
+2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+3. Restart Terminal or iTerm2
 
 ### Git
 
@@ -25,15 +47,9 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 ### Sublime Text 3
 
-1. Install [Sublime Text 3](https://www.sublimetext.com/3)
-
-   ```
-   $ brew cask install sublime-text
-   ```
-
-2. Install [Package Control](https://packagecontrol.io/installation)
-3. Close Sublime Text
-4. Replace configuration files
+1. Install [Package Control](https://packagecontrol.io/installation)
+2. Close Sublime Text
+3. Replace configuration files
 
    ```
    $ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
@@ -64,16 +80,7 @@ I use [shiki/sprout-wrap](http://github.com/shiki/sprout-wrap) forked from [pivo
 
 ### Xcode
 
-1. Install [Alcatraz](http://alcatraz.io/).
-2. Install these plugins using Alcatraz:
-  * [Backlight](https://github.com/limejelly/Backlight-for-XCode)
-  * ClangFormat
-  * FuzzyAutocomplete
-  * OMQuickHelp
-  * VVDocumenter-Xcode
-  * XCActionBar
-  * XcodeColors
-  * XVim
+1. Intall XVim plugin
 3. For the custom XVim keybindings:
   1. Symlink `dotfiles/xcode/KeyBindings/XVim.idekeybindings.symlink` to `~/Library/Developer/Xcode/UserData/XVim.idekeybindings`
   2. Enable the keybinding in XCode > Preferences > Key Bindings

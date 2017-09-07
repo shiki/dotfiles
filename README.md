@@ -10,7 +10,7 @@ Contains macOS configuration files for various apps and instructions for setting
 
 ### Install Homebrew packages
 
-```
+```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack skype firefox evernote
 $ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck mysqlworkbench psequel
@@ -43,7 +43,12 @@ These aren't installed through Homebrew
 
 ### Git
 
-1. Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
+Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
+
+```bash
+$ rm ~/.gitconfig
+$ ln -s ~/.files/.gitconfig ~/.gitconfig
+```
 
 ### Sublime Text 3
 
@@ -60,7 +65,7 @@ These aren't installed through Homebrew
 
 1. Replace `~/.atom`
 
-   ```
+   ```bash
    $ rm -rf ~/.atom
    $ ln -s ~/.files/atom.symlink ~/.atom
    ```
@@ -70,10 +75,12 @@ These aren't installed through Homebrew
 
 ### MacVIM
 
-1. Symlink these files:
+1. Symlink `.vim` and `.vimrc`
 
-  * `dotfiles/.vim` to `~/.vim`
-  * `dotfiles/.vimrc` to `~/.vimrc`
+   ```bash
+   $ ln -s ~/.files/vim/vim.symlink ~/.vim
+   $ ln -s ~/.files/vim/vimrc.symlink ~/.vimrc
+   ```
 
 2. In MacVIM, run `:PluginInstall` to install all plugins. This instructs the [Vundle](https://github.com/VundleVim/Vundle.vim) package to install all the other packages managed by it.
 3. The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.

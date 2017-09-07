@@ -1,34 +1,3 @@
-export JAVA_HOME=`/usr/libexec/java_home`
-
-# Homebrew
-export BREW_CELLAR=/usr/local/Cellar
-
-# Android SDK
-export ANDROID_HOME=$HOME/Applications/adt/sdk
-export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/19.1.0:$ANDROID_HOME/tools
-
-# EC2
-export EC2_API_TOOLS_HOME=$BREW_CELLAR/ec2-api-tools/1.7.3.0
-export PATH=$PATH:$EC2_API_TOOLS_HOME/bin
-export EC2_HOME=$EC2_API_TOOLS_HOME/jars
-
-# Phabricator / Arcanist
-export PATH=$PATH:$HOME/Applications/phabricator/arcanist/bin
-
-# Editor for arcanist
-export EDITOR=/usr/bin/vim
-
-# Ansible 
-pushd $HOME/Applications/ansible >> /dev/null
-source ./hacking/env-setup >> /dev/null
-popd >> /dev/null
-
 # Cocoapods
 export LC_ALL="en_US.UTF-8"
-
-# Go GOROOT bin
-export PATH=$PATH:$BREW_CELLAR/go/1.4.2/libexec/bin
-# Default GOPATH
-export GOPATH=$HOME/Projects/gopath
-export PATH=$PATH:$GOPATH/bin
 

@@ -17,7 +17,7 @@ $ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-t
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage autojump thefuck
+$ brew install rbenv nvm git carthage autojump thefuck lnav
 ```
 
 ### Install others
@@ -148,3 +148,13 @@ Install extensions
 * Evernote Web Clipper
 * Save to Pocket
 * Honey
+
+### iTerm2
+
+Install themes from http://iterm2colorschemes.com/
+
+* Flatland
+* Dracula
+* Hardcore
+* Japanesque
+* Space Grey Eighties Dull

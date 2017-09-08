@@ -1,4 +1,4 @@
-## Jayson's .files and macOS setup
+## .files and macOS setup
 
 Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
@@ -17,7 +17,7 @@ $ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-t
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage
+$ brew install rbenv nvm git carthage autojump thefuck
 ```
 
 ### Install others
@@ -50,11 +50,14 @@ These aren't installed through Homebrew
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
 2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
 3. Restart Terminal or iTerm2
-4. Enable plugins
+4. Enable plugins and aliases
 
    ```bash
    $ bash-it enable plugin git
+   $ bash-it enable plugin autojump
+   $ bash-it enable plugin edit-mode-vi
    $ bash-it enable alias git
+   $ bash-it enable alias fuck
    ```
 
 ### Git

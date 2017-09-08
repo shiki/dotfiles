@@ -133,3 +133,15 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 Install powerpacks
 
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
+* [Timezone](http://www.packal.org/workflow/timezones)
+
+### Chrome
+
+Install extensions
+
+* Lastpass
+* Adblock
+* Vimium
+* Evernote Web Clipper
+* Save to Pocket
+* Honey

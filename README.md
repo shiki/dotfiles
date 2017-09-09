@@ -13,11 +13,12 @@ Contains macOS configuration files for various apps and instructions for setting
 ```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack skype firefox evernote
-$ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck mysqlworkbench psequel
+$ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck 
+$ brew cask install mysqlworkbench psequel sequel-pro
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage autojump thefuck lnav
+$ brew install rbenv nvm git carthage uncrustify swiftformat autojump thefuck lnav
 ```
 
 ### Install others
@@ -136,7 +137,15 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 Install powerpacks
 
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
-* [Timezone](http://www.packal.org/workflow/timezones)
+* [Timezone](https://github.com/zenorocha/alfred-workflows)
+* [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)
+* [SourceTree](https://github.com/zenorocha/alfred-workflows)
+* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
+* [Faker](https://github.com/zenorocha/alfred-workflows)
+* [IP Address](https://github.com/zenorocha/alfred-workflows)
+* [Kill Process](https://github.com/zenorocha/alfred-workflows)
+* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 
 ### Chrome
 

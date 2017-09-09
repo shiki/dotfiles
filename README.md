@@ -18,7 +18,7 @@ $ brew cask install mysqlworkbench psequel sequel-pro
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage uncrustify swiftformat autojump thefuck lnav
+$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav
 ```
 
 ### Install others
@@ -35,6 +35,7 @@ These aren't installed through Homebrew
 * Pocket
 * Copay
 * Lightshot
+* [Logitech Options](http://support.logitech.com/en_us/software/options)
 
 ### macOS
 

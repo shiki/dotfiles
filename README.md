@@ -147,6 +147,7 @@ Install powerpacks
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
+* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ### Chrome
 

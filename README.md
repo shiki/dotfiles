@@ -137,16 +137,17 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 
 Install powerpacks
 
-* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
-* [Timezone](https://github.com/zenorocha/alfred-workflows)
-* [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)
-* [SourceTree](https://github.com/zenorocha/alfred-workflows)
-* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
+* [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)
 * [Faker](https://github.com/zenorocha/alfred-workflows)
+* [Github](https://github.com/gharlan/alfred-github-workflow)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
+* [SourceTree](https://github.com/zenorocha/alfred-workflows)
+* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
+* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+* [Timezone](https://github.com/zenorocha/alfred-workflows)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ### Chrome

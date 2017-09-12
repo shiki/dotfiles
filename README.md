@@ -137,6 +137,7 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 
 Install powerpacks
 
+* [Convert](https://github.com/deanishe/alfred-convert)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
 * [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)
 * [Faker](https://github.com/zenorocha/alfred-workflows)

@@ -60,7 +60,7 @@ These aren't installed through Homebrew
    $ bash-it enable plugin edit-mode-vi
    $ bash-it enable alias git
    $ bash-it enable alias fuck
-   $ bash-it enable completion npm git docker docker-compose docker-machine
+   $ bash-it enable completion npm git docker docker-compose docker-machine bundler
    ```
 
 ### Git

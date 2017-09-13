@@ -52,7 +52,7 @@ These aren't installed through Homebrew
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
 2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
 3. Restart Terminal or iTerm2
-4. Enable plugins and aliases
+4. Enable plugins, aliases, and completions
 
    ```bash
    $ bash-it enable plugin git
@@ -60,6 +60,7 @@ These aren't installed through Homebrew
    $ bash-it enable plugin edit-mode-vi
    $ bash-it enable alias git
    $ bash-it enable alias fuck
+   $ bash-it enable completion npm git docker docker-compose docker-machine
    ```
 
 ### Git

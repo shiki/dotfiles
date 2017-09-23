@@ -36,6 +36,7 @@ These aren't installed through Homebrew
 * Copay
 * Lightshot
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
+* IntelliJ IDEA
 
 ### macOS
 

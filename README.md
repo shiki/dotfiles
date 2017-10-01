@@ -37,6 +37,7 @@ These aren't installed through Homebrew
 * Lightshot
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * IntelliJ IDEA
+* [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 
 ### macOS
 

@@ -18,7 +18,7 @@ $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman opensim
+$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman opensim tree
 ```
 
 ### Install others

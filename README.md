@@ -13,12 +13,12 @@ Contains macOS configuration files for various apps and instructions for setting
 ```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack skype firefox evernote
-$ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck 
+$ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck opensim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
-$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc
+$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc 
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman opensim tree
+$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman tree
 ```
 
 ### Install others

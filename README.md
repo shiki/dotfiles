@@ -18,13 +18,14 @@ $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc 
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv nvm git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman tree
+$ brew install rbenv git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman tree
 ```
 
 ### Install others
 
 These aren't installed through Homebrew
 
+* [nvm](https://github.com/creationix/nvm#git-install)
 * [Bash it](https://github.com/Bash-it/bash-it)
 * [Powerline fonts](https://github.com/powerline/fonts)
 * Lastpass
@@ -39,6 +40,12 @@ These aren't installed through Homebrew
 * IntelliJ IDEA
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Trello](https://trello.com/platforms)
+
+### Install npm packages
+
+```bash
+$ npm install -g machine-share
+```
 
 ### macOS
 

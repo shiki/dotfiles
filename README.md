@@ -38,6 +38,7 @@ These aren't installed through Homebrew
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * IntelliJ IDEA
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
+* [Trello](https://trello.com/platforms)
 
 ### macOS
 
@@ -57,11 +58,8 @@ These aren't installed through Homebrew
 4. Enable plugins, aliases, and completions
 
    ```bash
-   $ bash-it enable plugin git
-   $ bash-it enable plugin autojump
-   $ bash-it enable plugin edit-mode-vi
-   $ bash-it enable alias git
-   $ bash-it enable alias fuck
+   $ bash-it enable plugin git autojump edit-mode-vi
+   $ bash-it enable alias git fuck
    $ bash-it enable completion npm git docker docker-compose docker-machine bundler
    ```
 

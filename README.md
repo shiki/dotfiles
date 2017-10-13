@@ -16,7 +16,7 @@ $ brew cask install dropbox google-chrome spotify slack skype firefox evernote
 $ brew cask install docker sourcetree iterm2 macvim visual-studio-code sublime-text postman cyberduck opensim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc skitch
-$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc 
+$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
 $ brew install rbenv git carthage uncrustify swiftformat yarn autojump thefuck lnav watchman tree
 ```
@@ -152,6 +152,7 @@ Install powerpacks
 * [Github](https://github.com/gharlan/alfred-github-workflow)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
+* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
 * [SourceTree](https://github.com/zenorocha/alfred-workflows)
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)

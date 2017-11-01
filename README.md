@@ -151,6 +151,7 @@ Install powerpacks
 * [Faker](https://github.com/zenorocha/alfred-workflows)
 * [Github](https://github.com/gharlan/alfred-github-workflow)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
+* [JIRA](https://github.com/zfdang/alfred-jira-workflow)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
 * [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
 * [SourceTree](https://github.com/zenorocha/alfred-workflows)

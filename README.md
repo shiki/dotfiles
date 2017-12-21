@@ -65,8 +65,8 @@ $ npm install -g machine-share
 4. Enable plugins, aliases, and completions
 
    ```bash
-   $ bash-it enable plugin git autojump edit-mode-vi
-   $ bash-it enable alias git fuck
+   $ bash-it enable plugin git autojump edit-mode-vi history
+   $ bash-it enable alias git fuck 
    $ bash-it enable completion npm git docker docker-compose docker-machine bundler
    ```
 

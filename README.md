@@ -28,14 +28,16 @@ These aren't installed through Homebrew
 * [nvm](https://github.com/creationix/nvm#git-install)
 * [Bash it](https://github.com/Bash-it/bash-it)
 * [Powerline fonts](https://github.com/powerline/fonts)
+* Bear
+* Copay
 * Lastpass
 * Todoist
 * Tick Tick
-* Caato Time Tracker
+* Toggl
 * Tomato One
 * Pocket
-* Copay
 * Lightshot
+* Monosnap
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * IntelliJ IDEA
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
@@ -145,6 +147,7 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 
 Install powerpacks
 
+* [Bear](https://github.com/chrisbro/alfred-bear)
 * [Convert](https://github.com/deanishe/alfred-convert)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
 * [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)

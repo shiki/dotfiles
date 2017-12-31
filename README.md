@@ -157,7 +157,7 @@ Install powerpacks
 * [JIRA](https://github.com/zfdang/alfred-jira-workflow)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
 * [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
-* [SourceTree](https://github.com/zenorocha/alfred-workflows)
+* [SourceTree](https://github.com/yourtion/Alfred_SourceTree)
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)

@@ -30,6 +30,7 @@ These aren't installed through Homebrew
 * [Powerline fonts](https://github.com/powerline/fonts)
 * Bear
 * Copay
+* Google Drive File Stream
 * Lastpass
 * Todoist
 * Tick Tick

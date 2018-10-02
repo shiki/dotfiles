@@ -149,9 +149,9 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 Install powerpacks
 
 * [Bear](https://github.com/chrisbro/alfred-bear)
+* [Clocks](https://github.com/r1cc4rdo/alfred-workflows)
 * [Convert](https://github.com/deanishe/alfred-convert)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
-* [Evernote](https://www.alfredforum.com/topic/840-evernote-9-beta-2-for-alfred-3-search-create-append-set-reminders-all-within-alfred/)
 * [Faker](https://github.com/zenorocha/alfred-workflows)
 * [Github](https://github.com/gharlan/alfred-github-workflow)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
@@ -162,7 +162,6 @@ Install powerpacks
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
-* [Timezone](https://github.com/zenorocha/alfred-workflows)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ### Chrome

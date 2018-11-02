@@ -95,15 +95,8 @@ $ ln -s ~/.files/.gitconfig ~/.gitconfig
 
 ### Atom
 
-1. Replace `~/.atom`
-
-   ```bash
-   $ rm -rf ~/.atom
-   $ ln -s ~/.files/atom.symlink ~/.atom
-   ```
-2. Install the [Package Sync](https://atom.io/packages/package-sync) package.
-3. Execute the `Sync` command to install the other packages.
-4. Restart Atom
+Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. The Gist
+is secret and the location is stored in my LastPass.
 
 ### MacVIM
 

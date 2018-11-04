@@ -95,8 +95,11 @@ $ ln -s ~/.files/.gitconfig ~/.gitconfig
 
 ### Atom
 
-Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. The Gist
-is secret and the location is stored in my LastPass.
+Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. The gist is private and the location is stored in my LastPass.
+
+1. Install the [sync-settings](https://github.com/atom-community/sync-settings) package manually in Atom.
+2. Configure sync-settings to fill in the gist id and Github access token
+3. Run the _Sync Settings: Restore_ command in Atom
 
 ### MacVIM
 

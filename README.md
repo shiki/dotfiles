@@ -150,6 +150,7 @@ Install powerpacks
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
 * [Faker](https://github.com/zenorocha/alfred-workflows)
 * [Github](https://github.com/gharlan/alfred-github-workflow)
+* [Google URL Shortener](http://www.packal.org/workflow/google-url-shortener)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
 * [JIRA](https://github.com/zfdang/alfred-jira-workflow)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)

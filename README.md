@@ -30,14 +30,13 @@ These aren't installed through Homebrew
 * [Powerline fonts](https://github.com/powerline/fonts)
 * Bear
 * Copay
+* [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
 * Lastpass
 * Todoist
-* Tick Tick
 * Toggl
 * Tomato One
 * Pocket
-* Lightshot
 * Monosnap
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * IntelliJ IDEA
@@ -168,9 +167,7 @@ Install extensions
 * Lastpass
 * Adblock
 * Vimium
-* Evernote Web Clipper
 * Save to Pocket
-* Honey
 
 ### iTerm2
 

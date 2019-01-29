@@ -141,9 +141,8 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 
 ### Alfred
 
-Install powerpacks
+Install workflows:
 
-* [Bear](https://github.com/chrisbro/alfred-bear)
 * [Clocks](https://github.com/r1cc4rdo/alfred-workflows)
 * [Convert](https://github.com/deanishe/alfred-convert)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
@@ -151,13 +150,13 @@ Install powerpacks
 * [Github](https://github.com/gharlan/alfred-github-workflow)
 * [Google URL Shortener](http://www.packal.org/workflow/google-url-shortener)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
-* [JIRA](https://github.com/zfdang/alfred-jira-workflow)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
 * [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
 * [SourceTree](https://github.com/yourtion/Alfred_SourceTree)
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+* [Toggl](https://github.com/jason0x43/alfred-toggl)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ### Chrome

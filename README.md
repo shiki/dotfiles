@@ -7,6 +7,7 @@ Contains macOS configuration files for various apps and instructions for setting
 1. Update everything that is available in the App Store
 2. Install Xcode
 3. Install [Homebrew](https://brew.sh)
+4. Clone this project to `~/.files`
 
 ### Install Homebrew packages
 

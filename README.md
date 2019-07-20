@@ -107,11 +107,20 @@ $ git config --global user.email "jayson@basanes.net"
 
 ### Atom
 
-Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. The gist is private and the location is stored in my LastPass.
+Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. 
 
 1. Install the [sync-settings](https://github.com/atom-community/sync-settings) package manually in Atom.
 2. Configure sync-settings to fill in the gist id and Github access token
 3. Run the _Sync Settings: Restore_ command in Atom
+
+### VS Code
+
+VS Code settings are synchronized using the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin. It saves the settings in Gist.
+
+1. Install the plugin. 
+2. After the plugin is installed, follow the steps to _Login with Github_. 
+3. Pick the correct gist to use. 
+3. Run the _Sync: Download Settings_ to download and apply the settings.
 
 ### MacVIM
 
@@ -150,11 +159,17 @@ Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xco
 
 ### Android Studio 
 
-Follow the IntelliJ [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository) instructions to synchronize the Android Studio settings. Use the `android-studio-settings` Github repo. 
+Android Studio settings are synchronized using a git repo. 
+
+1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
+2. Use the `android-studio-settings` Github repo. 
 
 ### AppCode
 
-Follow the IntelliJ [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository) instructions to synchronize the AppCode settings. Use the `appcode-settings` Github repo. 
+AppCode settings are synchronized using a git repo.
+
+1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
+2. Use the `appcode-settings` Github repo. 
 
 ### Alfred
 

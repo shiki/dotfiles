@@ -13,7 +13,7 @@ Contains macOS configuration files for various apps and instructions for setting
 ```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion toggl
-$ brew cask install docker tower iterm2 macvim visual-studio-code atom cyberduck simsim
+$ brew cask install docker tower iterm2 macvim visual-studio-code atom appcode cyberduck simsim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice

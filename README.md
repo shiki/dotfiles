@@ -70,11 +70,9 @@ $ npm install -g machine-share
 
 ### Git
 
-Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
-
 ```bash
-$ rm ~/.gitconfig
-$ ln -s ~/.files/.gitconfig ~/.gitconfig
+$ git config --global user.name "Shiki"
+$ git config --global user.email "jayson@basanes.net"
 ```
 
 ### Atom

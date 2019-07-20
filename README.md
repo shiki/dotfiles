@@ -158,22 +158,22 @@ Follow the IntelliJ [Share settings through a settings repository](https://www.j
 
 ### Alfred
 
-Install workflows:
+Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
 
-* [Clocks](https://github.com/r1cc4rdo/alfred-workflows)
+These workflows should be automatically installed:
+
 * [Convert](https://github.com/deanishe/alfred-convert)
+* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
 * [DevDocs](https://github.com/yannickglt/alfred-devdocs)
 * [Faker](https://github.com/zenorocha/alfred-workflows)
 * [Github](https://github.com/gharlan/alfred-github-workflow)
-* [Google URL Shortener](http://www.packal.org/workflow/google-url-shortener)
 * [IP Address](https://github.com/zenorocha/alfred-workflows)
 * [Kill Process](https://github.com/zenorocha/alfred-workflows)
 * [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
-* [SourceTree](https://github.com/yourtion/Alfred_SourceTree)
 * [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
 * [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
-* [Toggl](https://github.com/jason0x43/alfred-toggl)
+* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ### Chrome

@@ -29,8 +29,6 @@ These aren't installed through Homebrew
 * [nvm](https://github.com/creationix/nvm#git-install)
 * [Bash it](https://github.com/Bash-it/bash-it)
 * [Powerline fonts](https://github.com/powerline/fonts)
-* Bear
-* Copay
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
 * Lastpass
@@ -40,9 +38,7 @@ These aren't installed through Homebrew
 * Pocket
 * Monosnap
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
-* IntelliJ IDEA
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
-* [Trello](https://trello.com/platforms)
 
 ### Install npm packages
 

@@ -12,7 +12,7 @@ Contains macOS configuration files for various apps and instructions for setting
 
 ```bash
 $ brew tap caskroom/cask
-$ brew cask install dropbox google-chrome spotify slack firefox notion
+$ brew cask install dropbox google-chrome spotify slack firefox notion toggl
 $ brew cask install docker tower iterm2 macvim visual-studio-code cyberduck simsim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper
@@ -31,11 +31,10 @@ These aren't installed through Homebrew
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
 * Lastpass
-* Todoist
-* Toggl
-* Tomato One
-* Pocket
-* Monosnap
+* [Todoist](https://todoist.com/)
+* [Tomato One](https://apps.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12)
+* [Pocket](https://apps.apple.com/app/pocket/id568494494?ls=1&mt=12)
+* [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655?mt=12)
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 

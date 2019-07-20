@@ -117,6 +117,10 @@ Atom settings are synchronized using the [sync-settings](https://github.com/atom
 
 Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xcode-themes).
 
+### Android Studio 
+
+Follow the IntelliJ [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository) instructions to synchronize the Android Studio settings. Use the `android-studio-settings` Github repo. 
+
 ### AppCode
 
 1. Import `dotfiles/.appcode/settings.jar`

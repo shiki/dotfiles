@@ -31,7 +31,7 @@ These aren't installed through Homebrew
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
 * Lastpass
-* [Todoist](https://todoist.com/)
+* [Todoist](https://apps.apple.com/ca/app/todoist-organize-your-life/id585829637?mt=12&ign-mpt=uo%3D4)
 * [Tomato One](https://apps.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12)
 * [Pocket](https://apps.apple.com/app/pocket/id568494494?ls=1&mt=12)
 * [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655?mt=12)

@@ -27,3 +27,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Aliases
 alias be="bundle exec"
+alias rd="rake dependencies"

@@ -13,7 +13,7 @@ Contains macOS configuration files for various apps and instructions for setting
 ```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion
-$ brew cask install docker tower iterm2 macvim visual-studio-code sublime-text tower cyberduck simsim
+$ brew cask install docker tower iterm2 macvim visual-studio-code tower cyberduck simsim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine commander-one flux keepassxc omnidisksweeper
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
@@ -80,17 +80,6 @@ Symlink `dotfiles/.gitconfig` to `~/.gitconfig`
 $ rm ~/.gitconfig
 $ ln -s ~/.files/.gitconfig ~/.gitconfig
 ```
-
-### Sublime Text 3
-
-1. Install [Package Control](https://packagecontrol.io/installation)
-2. Close Sublime Text
-3. Replace configuration files
-
-   ```
-   $ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-   $ ln -s ~/.files/sublime-text/Packages/User.symlink ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-   ```
 
 ### Atom
 

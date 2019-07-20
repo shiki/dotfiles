@@ -38,11 +38,42 @@ These aren't installed through Homebrew
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 
-### Install npm packages
+### NPM
 
-```bash
-$ npm install -g machine-share
-```
+1. Install the latest Node version.
+
+    ```bash
+    npm intall <version>
+    ```
+
+2. Install global packages.
+
+    ```bash
+    npm install -g machine-share
+    ```
+
+### Ruby
+
+1. Install the latest Ruby version.
+
+    ```bash
+    # List all available versions
+    rbenv install -l
+
+    # Install 
+    rbenv install <version>
+    ```
+2. Set it as the global version. 
+
+   ```bash
+   rbenv global <version>
+   ```
+
+3. Install Bundler. 
+
+   ```bash
+   gem install bundler
+   ```
 
 ### macOS
 

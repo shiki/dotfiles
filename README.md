@@ -154,7 +154,7 @@ Follow the IntelliJ [Share settings through a settings repository](https://www.j
 
 ### AppCode
 
-1. Import `dotfiles/.appcode/settings.jar`
+Follow the IntelliJ [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository) instructions to synchronize the AppCode settings. Use the `appcode-settings` Github repo. 
 
 ### Alfred
 

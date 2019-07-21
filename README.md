@@ -69,11 +69,17 @@ These aren't installed through Homebrew
    rbenv global <version>
    ```
 
-3. Install Bundler. 
+3. Install global Ruby packages. 
 
    ```bash
-   gem install bundler
+   gem install bundler cocoapods
    ```
+
+4. Prepare Cocoapods repo. This usually takes a long time.
+
+  ```bash
+  pod setup
+  ```
 
 ### macOS
 

@@ -83,13 +83,14 @@ These aren't installed through Homebrew
 
 ## macOS
 
-1. Set to always show hidden files
+```bash
+# Always show hidden files
+defaults write -g AppleShowAllFiles -bool true
 
-   ```bash
-   defaults write -g AppleShowAllFiles -bool true
-   ```
-   
-   Restart Finder.
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+```
 
 ## Bash-it
 
@@ -222,3 +223,7 @@ Install themes from http://iterm2colorschemes.com/
 * Hardcore
 * Japanesque
 * Space Grey Eighties Dull
+
+## References
+
+- [mathiasbynens/dotfiles: .files, including ~/.macos — sensible hacker defaults for macOS](https://github.com/mathiasbynens/dotfiles)

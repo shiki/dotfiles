@@ -38,6 +38,7 @@ These aren't installed through Homebrew
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
+* [Avira](https://www.avira.com/)
 
 ## NPM
 

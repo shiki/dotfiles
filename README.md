@@ -1,14 +1,14 @@
-## .files and macOS setup
+# .files and macOS setup
 
 Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
-### Setup
+## Setup
 
 1. Update everything that is available in the App Store
 2. Install Xcode
 3. Install [Homebrew](https://brew.sh)
 
-### Install Homebrew packages
+## Install Homebrew packages
 
 ```bash
 $ brew tap caskroom/cask
@@ -21,7 +21,7 @@ $ brew install Caskroom/versions/google-chrome-canary
 $ brew install rbenv git carthage swiftformat yarn autojump lnav watchman tree ncdu
 ```
 
-### Install others
+## Install others
 
 These aren't installed through Homebrew
 
@@ -38,7 +38,7 @@ These aren't installed through Homebrew
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 
-### NPM
+## NPM
 
 1. Install the latest Node version.
 
@@ -52,7 +52,7 @@ These aren't installed through Homebrew
     npm install -g machine-share
     ```
 
-### Ruby
+## Ruby
 
 1. Install the latest Ruby version.
 
@@ -81,7 +81,7 @@ These aren't installed through Homebrew
     pod setup
     ```
 
-### macOS
+## macOS
 
 1. Set to always show hidden files
 
@@ -91,7 +91,7 @@ These aren't installed through Homebrew
    
    Restart Finder.
 
-### Bash-it
+## Bash-it
 
 1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
 2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
@@ -104,14 +104,14 @@ These aren't installed through Homebrew
    $ bash-it enable completion npm git docker docker-compose docker-machine bundler
    ```
 
-### Git
+## Git
 
 ```bash
 $ git config --global user.name "Shiki"
 $ git config --global user.email "jayson@basanes.net"
 ```
 
-### Atom
+## Atom
 
 Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. 
 
@@ -119,7 +119,7 @@ Atom settings are synchronized using the [sync-settings](https://github.com/atom
 2. Configure sync-settings to fill in the gist id and Github access token
 3. Run the _Sync Settings: Restore_ command in Atom
 
-### VS Code
+## VS Code
 
 VS Code settings are synchronized using the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin. It saves the settings in Gist.
 
@@ -128,7 +128,7 @@ VS Code settings are synchronized using the [Settings Sync](https://marketplace.
 3. Pick the correct gist to use. 
 3. Run the _Sync: Download Settings_ to download and apply the settings.
 
-### MacVIM
+## MacVIM
 
 1. Symlink `.vim` 
 
@@ -144,40 +144,31 @@ VS Code settings are synchronized using the [Settings Sync](https://marketplace.
 4. In MacVIM, run `:PluginInstall` to install all plugins. This instructs the [Vundle](https://github.com/VundleVim/Vundle.vim) package to install all the other packages managed by it.
 5. The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
 
-### Xcode
+## Xcode
 
-1. Intall XVim plugin
-2. For the custom XVim keybindings:
-  1. Symlink `XVim.idekeybindings.symlink`
-     ```bash
-     $ ln -s ~/.files/xcode/KeyBindings/XVim.idekeybindings.symlink ~/Library/Developer/Xcode/UserData/KeyBindings/XVim.idekeybindings
-     ```
-  2. Enable the keybinding in XCode > Preferences > Key Bindings
-4. Add the custom XCode color themes
-  1. Symlink `dotfiles/xcode/FontAndColorThemes.symlink` to `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
-     ```bash
-     $ ln -s ~/.files/xcode/FontAndColorThemes.symlink ~/Library/Developer/Xcode/UserData/FontAndColorThemes
-     ```
-  2. Choose a theme in XCode > Preferences > Fonts & Colors
-  3. Manually change the Font for the theme
+1. Install the [XVim2 plugin](https://github.com/XVimProject/XVim2).
+2. Install the custom keybindings.
+    1. Symlink `XVim.idekeybindings.symlink`
+        ```bash
+        ln -s ~/.files/xcode/KeyBindings/XVim.idekeybindings.symlink ~/Library/Developer/Xcode/UserData/KeyBindings/XVim.idekeybindings
+        ```
+    2. Enable the keybinding in XCode → Preferences → Key Bindings
 
-Xcode themes were taken from [hdoria/xcode-themes](https://github.com/hdoria/xcode-themes).
-
-### Android Studio 
+## Android Studio 
 
 Android Studio settings are synchronized using a git repo. 
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `android-studio-settings` Github repo. 
 
-### AppCode
+## AppCode
 
 AppCode settings are synchronized using a git repo.
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `appcode-settings` Github repo. 
 
-### Alfred
+## Alfred
 
 Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
 
@@ -197,7 +188,7 @@ These workflows should be automatically installed:
 * [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
-### Chrome
+## Chrome
 
 Install extensions
 
@@ -206,7 +197,7 @@ Install extensions
 * Vimium
 * Save to Pocket
 
-### iTerm2
+## iTerm2
 
 Install themes from http://iterm2colorschemes.com/
 

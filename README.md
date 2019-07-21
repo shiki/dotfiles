@@ -190,7 +190,7 @@ AppCode settings are synchronized using a git repo.
 
 ## Chrome
 
-Install extensions
+Install these extensions.
 
 * [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
 * [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa?hl=en)
@@ -201,6 +201,17 @@ Install extensions
 * [Url Shortener](https://chrome.google.com/webstore/detail/url-shortener/oodfdmglhbbkkcngodjjagblikmoegpa?hl=en)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 * [Git.io URL Shortener](https://chrome.google.com/webstore/detail/gitio-url-shortener/baceaeopmlhkjbljoiinmbnnmpokgiml?hl=en)
+
+## Firefox
+
+Install these extensions.
+
+* [LastPass](https://addons.mozilla.org/en-CA/firefox/addon/lastpass-password-manager/)
+* [uBlock Origin](https://addons.mozilla.org/en-CA/firefox/addon/ublock-origin/)
+* [Link Shortener](https://addons.mozilla.org/en-US/firefox/addon/link-shortener/)
+* [Markdown Here](https://addons.mozilla.org/en-CA/firefox/addon/markdown-here/)
+* [Copy Selection as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-selection-as-markdown/?src=search)
+* [Momentum](https://addons.mozilla.org/en-CA/firefox/addon/momentumdash/)
 
 ## iTerm2
 

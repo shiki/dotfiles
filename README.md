@@ -30,7 +30,7 @@ These aren't installed through Homebrew
 * [Powerline fonts](https://github.com/powerline/fonts)
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
-* Lastpass
+* LastPass
 * [Todoist](https://apps.apple.com/ca/app/todoist-organize-your-life/id585829637?mt=12&ign-mpt=uo%3D4)
 * [Tomato One](https://apps.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12)
 * [Pocket](https://apps.apple.com/app/pocket/id568494494?ls=1&mt=12)
@@ -111,6 +111,26 @@ $ git config --global user.name "Shiki"
 $ git config --global user.email "jayson@basanes.net"
 ```
 
+## Alfred
+
+Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
+
+These workflows should be automatically installed:
+
+* [Convert](https://github.com/deanishe/alfred-convert)
+* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
+* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
+* [Faker](https://github.com/zenorocha/alfred-workflows)
+* [Github](https://github.com/gharlan/alfred-github-workflow)
+* [IP Address](https://github.com/zenorocha/alfred-workflows)
+* [Kill Process](https://github.com/zenorocha/alfred-workflows)
+* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
+* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
+* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
+* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
+* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
+
 ## Atom
 
 Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. 
@@ -168,34 +188,18 @@ AppCode settings are synchronized using a git repo.
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `appcode-settings` Github repo. 
 
-## Alfred
-
-Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
-
-These workflows should be automatically installed:
-
-* [Convert](https://github.com/deanishe/alfred-convert)
-* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
-* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
-* [Faker](https://github.com/zenorocha/alfred-workflows)
-* [Github](https://github.com/gharlan/alfred-github-workflow)
-* [IP Address](https://github.com/zenorocha/alfred-workflows)
-* [Kill Process](https://github.com/zenorocha/alfred-workflows)
-* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
-* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
-* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
-* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
-* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
-* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
-
 ## Chrome
 
 Install extensions
 
-* Lastpass
-* Adblock
-* Vimium
-* Save to Pocket
+* [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
+* [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa?hl=en)
+* [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
+* [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en)
+* [Url Shortener](https://chrome.google.com/webstore/detail/url-shortener/oodfdmglhbbkkcngodjjagblikmoegpa?hl=en)
+* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+* [Git.io URL Shortener](https://chrome.google.com/webstore/detail/gitio-url-shortener/baceaeopmlhkjbljoiinmbnnmpokgiml?hl=en)
 
 ## iTerm2
 

@@ -15,7 +15,7 @@ $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion toggl
 $ brew cask install docker tower iterm2 macvim visual-studio-code atom appcode android-studio cyberduck simsim
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql sqlitebrowser
-$ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper little-snitch
+$ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper 
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
 $ brew install rbenv git carthage swiftformat yarn autojump lnav watchman tree ncdu
@@ -37,6 +37,7 @@ These aren't installed through Homebrew
 * [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655?mt=12)
 * [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
+* [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
 
 ## NPM
 

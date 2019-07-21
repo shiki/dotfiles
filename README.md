@@ -77,9 +77,9 @@ These aren't installed through Homebrew
 
 4. Prepare Cocoapods repo. This usually takes a long time.
 
-  ```bash
-  pod setup
-  ```
+   ```bash
+    pod setup
+    ```
 
 ### macOS
 

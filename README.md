@@ -39,6 +39,7 @@ These aren't installed through Homebrew
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
 * [Avira](https://www.avira.com/)
+* [GPG Suite](https://gpgtools.org/)
 
 ## NPM
 

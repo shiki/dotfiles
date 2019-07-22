@@ -230,3 +230,7 @@ Install themes from http://iterm2colorschemes.com/
 ## References
 
 - [mathiasbynens/dotfiles: .files, including ~/.macos — sensible hacker defaults for macOS](https://github.com/mathiasbynens/dotfiles)
+
+## Others
+
+- Change the default DNS

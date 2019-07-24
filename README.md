@@ -7,6 +7,11 @@ Contains macOS configuration files for various apps and instructions for setting
 1. Update everything that is available in the App Store
 2. Install Xcode
 3. Install [Homebrew](https://brew.sh)
+4. Clone this repo to a local dir (e.g. `~/.files`).
+
+    ```
+    git clone git@github.com:shiki/dotfiles.git ~/.files
+    ```
 
 ## Install Homebrew packages
 
@@ -97,10 +102,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 ## Bash-it
 
-1. Clone this repo to a local dir (e.g. `~/.files`). Make sure to use `--recursive` when cloning or run `git submodules update --init --recursive` after cloning.
-2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
-3. Restart Terminal or iTerm2
-4. Enable plugins, aliases, and completions
+1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+2. Restart Terminal or iTerm2
+3. Enable plugins, aliases, and completions
 
    ```bash
    $ bash-it enable plugin git autojump edit-mode-vi history

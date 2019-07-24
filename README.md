@@ -9,7 +9,7 @@ Contains macOS configuration files for various apps and instructions for setting
 3. Install [Homebrew](https://brew.sh)
 4. Clone this repo to a local dir (e.g. `~/.files`).
 
-    ```
+    ```bash
     git clone git@github.com:shiki/dotfiles.git ~/.files
     ```
 
@@ -103,6 +103,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ## Bash-it
 
 1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+
+    ```bash
+    ln -s ~/.files/.bash_profile ~/.bash_profile
+    ```
 2. Restart Terminal or iTerm2
 3. Enable plugins, aliases, and completions
 

@@ -51,7 +51,7 @@ These aren't installed through Homebrew
 1. Install the latest Node version.
 
     ```bash
-    npm intall <version>
+    nvm intall <version>
     ```
 
 2. Install global packages.

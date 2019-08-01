@@ -45,6 +45,7 @@ These aren't installed through Homebrew
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
 * [Avira](https://www.avira.com/)
 * [GPG Suite](https://gpgtools.org/)
+* [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
 
 ## NPM
 

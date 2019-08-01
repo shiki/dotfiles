@@ -46,6 +46,7 @@ These aren't installed through Homebrew
 * [Avira](https://www.avira.com/)
 * [GPG Suite](https://gpgtools.org/)
 * [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
+* [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner. 
 
 ## NPM
 

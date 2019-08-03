@@ -237,12 +237,20 @@ Install themes from http://iterm2colorschemes.com/
 * Japanesque
 * Space Grey Eighties Dull
 
-## References
+## Fluid
 
-- [mathiasbynens/dotfiles: .files, including ~/.macos — sensible hacker defaults for macOS](https://github.com/mathiasbynens/dotfiles)
+Create Fluid apps for:
+
+* [Google Calendar](https://calendar.google.com). Use icons from Google's [Press Corner](https://www.blog.google/press/).
 
 ## Others
 
 1. Change the default DNS
 2. Add a [Quick Action to convert HEIC to JPEG](https://www.howtogeek.com/398927/how-to-convert-heic-images-to-jpg-on-a-mac-the-easy-way/)
 3. Enable zoom by checking Settings → Accessibility → Zoom → Use scroll gesture with modifier keys to zoom
+
+## References
+
+- [mathiasbynens/dotfiles: .files, including ~/.macos — sensible hacker defaults for macOS](https://github.com/mathiasbynens/dotfiles)
+
+

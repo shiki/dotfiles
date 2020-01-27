@@ -163,6 +163,17 @@ VS Code settings are synchronized using the [Settings Sync](https://marketplace.
 3. Pick the correct gist to use. 
 3. Run the _Sync: Download Settings_ to download and apply the settings.
 
+## Spacemacs
+
+1. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).
+1. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
+2. Symlink `.spacemacs`
+
+   ```bash
+   $ mv .spacemacs .spacemacs.bak
+   $ ln -s .files/spacemacs/.spacemacs .spacemacs
+   ```
+
 ## MacVIM
 
 1. Symlink `.vim` 

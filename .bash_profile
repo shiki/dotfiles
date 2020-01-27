@@ -60,3 +60,8 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+# Aliases
+alias be="bundle exec"
+alias rd="rake dependencies"
+alias rgx="rake dependencies && git submodule update && xed ."

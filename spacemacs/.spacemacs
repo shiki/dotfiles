@@ -312,6 +312,8 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq org-todo-keywords '((sequence "TODO" "PROGRESS" "|" "DONE" "WAITING" "DELEGATED" "CANCELLED")))
+  (spacemacs/toggle-truncate-lines-off)
+  (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

@@ -43,7 +43,6 @@ values."
      emacs-lisp
      git
      swift
-     ;; markdown
      (org :variables
           org-startup-indented t
           org-indent-mode t)
@@ -316,6 +315,7 @@ you should place your code here."
   (setq org-todo-keywords '((sequence "TODO" "PROGRESS" "|" "DONE" "WAITING" "DELEGATED" "CANCELLED")))
   (spacemacs/toggle-truncate-lines-off)
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
+  (set-fontset-font t 'unicode "Apple Color Emoji" nil 'prepend)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

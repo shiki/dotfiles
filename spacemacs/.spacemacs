@@ -46,6 +46,7 @@ This function should only modify configuration layer settings."
      ;; lsp
      markdown
      multiple-cursors
+     swift
 
      (org :variables
           ;; Fix indentation

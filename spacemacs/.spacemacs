@@ -46,7 +46,10 @@ This function should only modify configuration layer settings."
      ;; lsp
      markdown
      multiple-cursors
-     org
+
+     ;; Enable toggling TODO with t https://git.io/Jv6By
+     (org :variables org-want-todo-bindings t)
+
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

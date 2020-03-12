@@ -47,8 +47,12 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
 
-     ;; Enable toggling TODO with t https://git.io/Jv6By
-     (org :variables org-want-todo-bindings t)
+     (org :variables
+          ;; Fix indentation
+          org-startup-indented t
+          org-indent-mode t
+          ;; Enable toggling TODO with t https://git.io/Jv6By
+          org-want-todo-bindings t)
 
      ;; (shell :variables
      ;;        shell-default-height 30

@@ -163,6 +163,12 @@ VS Code settings are synchronized using the [Settings Sync](https://marketplace.
 3. Pick the correct gist to use. 
 3. Run the _Sync: Download Settings_ to download and apply the settings.
 
+[Disable press and hold](https://stackoverflow.com/a/44010683) so that VS Code will repeat any key that is being held:
+
+```
+$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
+
 ## Spacemacs
 
 1. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).

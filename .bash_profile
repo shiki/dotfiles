@@ -75,6 +75,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Aliases
+alias gw="git worktree"
 alias be="bundle exec"
 alias rd="rake dependencies"
 alias rgx="rake dependencies && git submodule update && xed ."

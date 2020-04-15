@@ -479,7 +479,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  (setq org-todo-keywords '((sequence "TODO" "PROGRESS" "|" "DONE" "WAITING" "DELEGATED" "CANCELLED")))
+  (setq org-todo-keywords '((sequence "TODO" "PROGRESS" "WAITING" "|" "DONE" "DELEGATED" "CANCELLED")))
 
   ;; Disable line truncation (https://tinyurl.com/uk2lrce)
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)

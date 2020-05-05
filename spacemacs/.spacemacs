@@ -480,6 +480,14 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
   (setq org-todo-keywords '((sequence "TODO(t)" "DOING(d)" "WAITING(w)" "|" "DONE(o)" "DELEGATED(e)" "CANCELLED(c)")))
+  (setq org-todo-keyword-faces
+        '(("TODO" . "#9e9e9e")
+          ("WAITING" . "#9575cd")
+          ("DOING" . "#f06292")
+          ("DONE" . "#81c784")
+          ("CANCELLED" . "#7986cb")
+          ("DELEGATED" . "#7986cb")
+          ))
 
   ;; Disable line truncation (https://tinyurl.com/uk2lrce)
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)

@@ -2,6 +2,36 @@
 
 Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
+#### Table of Contents 
+
+- [Preparation](#preparation)
+- [General](#general)
+    - [Homebrew Packages](#homebrew-packages)
+    - [Others](#others)
+- [macOS](#macos)
+- [Bash-it](#bash-it)
+- [Alfred](#alfred)
+- [NodeJS](#nodejs)
+- [Ruby](#ruby)
+- [Git](#git)
+- [Atom](#atom)
+- [VS Code](#vs-code)
+- [Spacemacs](#spacemacs)
+- [MacVIM](#macvim)
+- [iOS Development](#ios-development)
+    - [Xcode](#xcode)
+    - [AppCode](#appcode)
+- [Android Development](#android-development)
+    - [Android Studio](#android-studio)
+- [PHP Development](#php-development)
+- [Browsers](#browsers)
+    - [Chrome](#chrome)
+    - [Firefox](#firefox)
+- [iTerm2](#iterm2)
+- [Fluid](#fluid)
+- [Others](#others)
+- [References](#references)
+
 ## Preparation
 
 1. Update everything that is available in the App Store
@@ -15,7 +45,7 @@ Contains macOS configuration files for various apps and instructions for setting
 
 ## General
 
-### Install Homebrew packages
+### Homebrew Packages
 
 ```bash
 $ brew tap caskroom/cask
@@ -28,7 +58,7 @@ $ brew install Caskroom/versions/google-chrome-canary
 $ brew install git git-crypt carthage swiftformat yarn autojump lnav watchman tree ncdu
 ```
 
-### Install others
+### Others
 
 These aren't installed through Homebrew
 

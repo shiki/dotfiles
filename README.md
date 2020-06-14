@@ -21,8 +21,10 @@ Contains macOS configuration files for various apps and instructions for setting
 - [iOS Development](#ios-development)
     - [Xcode](#xcode)
     - [AppCode](#appcode)
+    - [iOS Dev Tools](#ios-dev-tools)
 - [Android Development](#android-development)
     - [Android Studio](#android-studio)
+    - [Android Dev Tools](#android-dev-tools)
 - [PHP Development](#php-development)
 - [Ansible](#ansible)
 - [Browsers](#browsers)
@@ -260,7 +262,7 @@ AppCode settings are synchronized using a git repo.
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `appcode-settings` Github repo. 
 
-### Tools
+### iOS Dev Tools
 
 ```bash
 $ brew cask install simsim 
@@ -282,7 +284,7 @@ Android Studio settings are synchronized using a git repo.
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `android-studio-settings` Github repo. 
 
-### Tools
+### Android Dev Tools
 
 ```bash
 $ brew cask install scrcpy

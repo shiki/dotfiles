@@ -24,6 +24,7 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Android Development](#android-development)
     - [Android Studio](#android-studio)
 - [PHP Development](#php-development)
+- [Ansible](#ansible)
 - [Browsers](#browsers)
     - [Chrome](#chrome)
     - [Firefox](#firefox)
@@ -271,6 +272,12 @@ Android Studio settings are synchronized using a git repo.
     $ brew install php composer
     $ brew cask install virtualbox vagrant
     ```
+    
+## Ansible 
+
+```bash
+$ brew install ansible
+```
 
 ## Browsers
 

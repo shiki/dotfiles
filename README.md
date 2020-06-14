@@ -268,7 +268,7 @@ Android Studio settings are synchronized using a git repo.
 2. Install Homebrew packages
 
     ```
-    $ brew install php
+    $ brew install php composer
     $ brew cask install virtualbox vagrant
     ```
 

@@ -2,7 +2,7 @@
 
 Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
-## Setup
+## Preparation
 
 1. Update everything that is available in the App Store
 2. Install Xcode
@@ -13,7 +13,9 @@ Contains macOS configuration files for various apps and instructions for setting
     git clone git@github.com:shiki/dotfiles.git ~/.files
     ```
 
-## Install Homebrew packages
+## General
+
+### Install Homebrew packages
 
 ```bash
 $ brew tap caskroom/cask
@@ -26,7 +28,7 @@ $ brew install Caskroom/versions/google-chrome-canary
 $ brew install git git-crypt carthage swiftformat yarn autojump lnav watchman tree ncdu
 ```
 
-## Install others
+### Install others
 
 These aren't installed through Homebrew
 
@@ -47,6 +49,53 @@ These aren't installed through Homebrew
 * [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
 * [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner. 
 * [Charles Proxy](https://www.charlesproxy.com/download/latest-release/)
+
+## macOS
+
+```bash
+# Always show hidden files
+defaults write -g AppleShowAllFiles -bool true
+
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+```
+
+## Bash-it
+
+1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+
+    ```bash
+    ln -s ~/.files/.bash_profile ~/.bash_profile
+    ```
+2. Restart Terminal or iTerm2
+3. Enable plugins, aliases, and completions
+
+   ```bash
+   $ bash-it enable plugin git autojump edit-mode-vi history
+   $ bash-it enable alias git
+   $ bash-it enable completion npm git docker docker-compose docker-machine bundler
+   ```
+
+## Alfred
+
+Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
+
+These workflows should be automatically installed:
+
+* [Convert](https://github.com/deanishe/alfred-convert)
+* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
+* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
+* [Faker](https://github.com/zenorocha/alfred-workflows)
+* [Github](https://github.com/gharlan/alfred-github-workflow)
+* [IP Address](https://github.com/zenorocha/alfred-workflows)
+* [Kill Process](https://github.com/zenorocha/alfred-workflows)
+* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
+* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
+* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
+* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
+* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ## NodeJS
 
@@ -98,59 +147,12 @@ These aren't installed through Homebrew
    pod setup
    ```
 
-## macOS
-
-```bash
-# Always show hidden files
-defaults write -g AppleShowAllFiles -bool true
-
-# Enable full keyboard access for all controls
-# (e.g. enable Tab in modal dialogs)
-defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-```
-
-## Bash-it
-
-1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
-
-    ```bash
-    ln -s ~/.files/.bash_profile ~/.bash_profile
-    ```
-2. Restart Terminal or iTerm2
-3. Enable plugins, aliases, and completions
-
-   ```bash
-   $ bash-it enable plugin git autojump edit-mode-vi history
-   $ bash-it enable alias git
-   $ bash-it enable completion npm git docker docker-compose docker-machine bundler
-   ```
-
 ## Git
 
 ```bash
 $ git config --global user.name "Shiki"
 $ git config --global user.email "jayson@basanes.net"
 ```
-
-## Alfred
-
-Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
-
-These workflows should be automatically installed:
-
-* [Convert](https://github.com/deanishe/alfred-convert)
-* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
-* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
-* [Faker](https://github.com/zenorocha/alfred-workflows)
-* [Github](https://github.com/gharlan/alfred-github-workflow)
-* [IP Address](https://github.com/zenorocha/alfred-workflows)
-* [Kill Process](https://github.com/zenorocha/alfred-workflows)
-* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
-* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
-* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
-* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
-* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
-* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
 
 ## Atom
 

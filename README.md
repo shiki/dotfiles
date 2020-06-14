@@ -51,12 +51,12 @@ Contains macOS configuration files for various apps and instructions for setting
 ```bash
 $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion toggl
-$ brew cask install docker tower iterm2 macvim visual-studio-code atom appcode android-studio cyberduck simsim scrcpy
+$ brew cask install docker tower iterm2 macvim visual-studio-code atom cyberduck
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-sqlite
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper 
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install git git-crypt carthage swiftformat yarn autojump lnav watchman tree ncdu
+$ brew install git git-crypt yarn autojump lnav watchman tree ncdu
 ```
 
 ### Others
@@ -249,19 +249,44 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ### AppCode
 
+Install AppCode via Homebrew:
+
+```bash
+$ brew cask install appcode
+```
+
 AppCode settings are synchronized using a git repo.
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `appcode-settings` Github repo. 
 
+### Tools
+
+```bash
+$ brew cask install simsim 
+$ brew install carthage swiftformat 
+```
+
 ## Android Development
 
-### Android Studio 
+### Android Studio
+
+Install Android Studio via Homebrew:
+
+```bash
+$ brew cask install android-studio
+```
 
 Android Studio settings are synchronized using a git repo. 
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `android-studio-settings` Github repo. 
+
+### Tools
+
+```bash
+$ brew cask install scrcpy
+```
 
 ## PHP Development
 

@@ -232,10 +232,13 @@ Android Studio settings are synchronized using a git repo.
 
 ## PHP Development
 
-```
-$ brew install php
-$ brew cask install virtualbox vagrant
-```
+1. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
+2. Install Homebrew packages
+
+    ```
+    $ brew install php
+    $ brew cask install virtualbox vagrant
+    ```
 
 ## Browsers
 

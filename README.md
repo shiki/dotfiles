@@ -23,14 +23,13 @@ $ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper 
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install rbenv git git-crypt carthage swiftformat yarn autojump lnav watchman tree ncdu
+$ brew install git git-crypt carthage swiftformat yarn autojump lnav watchman tree ncdu
 ```
 
 ## Install others
 
 These aren't installed through Homebrew
 
-* [nvm](https://github.com/creationix/nvm#git-install)
 * [Bash it](https://github.com/Bash-it/bash-it)
 * [Powerline fonts](https://github.com/powerline/fonts)
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
@@ -49,15 +48,16 @@ These aren't installed through Homebrew
 * [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner. 
 * [Charles Proxy](https://www.charlesproxy.com/download/latest-release/)
 
-## NPM
+## NodeJS
 
-1. Install the latest Node version.
+1. Install [nvm](https://github.com/creationix/nvm#git-install).
+2. Install the latest Node version.
 
     ```bash
     nvm intall <version>
     ```
 
-2. Install global packages.
+3. Install global packages.
 
     ```bash
     npm install -g machine-share
@@ -65,7 +65,13 @@ These aren't installed through Homebrew
 
 ## Ruby
 
-1. Install the latest Ruby version.
+1. Install `rbenv`
+
+   ```bash
+   $ brew install rbenv
+   ```
+
+2. Install the latest Ruby version.
 
     ```bash
     # List all available versions
@@ -74,23 +80,23 @@ These aren't installed through Homebrew
     # Install 
     rbenv install <version>
     ```
-2. Set it as the global version. 
+3. Set it as the global version. 
 
    ```bash
    rbenv global <version>
    ```
 
-3. Install global Ruby packages. 
+4. Install global Ruby packages. 
 
    ```bash
    gem install bundler cocoapods
    ```
 
-4. Prepare Cocoapods repo. This usually takes a long time.
+5. Prepare Cocoapods repo. This usually takes a long time.
 
    ```bash
-    pod setup
-    ```
+   pod setup
+   ```
 
 ## macOS
 

@@ -196,7 +196,9 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 4. In MacVIM, run `:PluginInstall` to install all plugins. This instructs the [Vundle](https://github.com/VundleVim/Vundle.vim) package to install all the other packages managed by it.
 5. The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
 
-## Xcode
+## iOS Development
+
+### Xcode
 
 1. Install the [XVim2 plugin](https://github.com/XVimProject/XVim2).
 2. Install the custom keybindings.
@@ -206,21 +208,25 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
         ```
     2. Enable the keybinding in XCode → Preferences → Key Bindings
 
-## Android Studio 
-
-Android Studio settings are synchronized using a git repo. 
-
-1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
-2. Use the `android-studio-settings` Github repo. 
-
-## AppCode
+### AppCode
 
 AppCode settings are synchronized using a git repo.
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
 2. Use the `appcode-settings` Github repo. 
 
-## Chrome
+## Android Development
+
+### Android Studio 
+
+Android Studio settings are synchronized using a git repo. 
+
+1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
+2. Use the `android-studio-settings` Github repo. 
+
+## Browsers
+
+### Chrome
 
 Install these extensions.
 
@@ -234,7 +240,7 @@ Install these extensions.
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 * [Git.io URL Shortener](https://chrome.google.com/webstore/detail/gitio-url-shortener/baceaeopmlhkjbljoiinmbnnmpokgiml?hl=en)
 
-## Firefox
+### Firefox
 
 Install these extensions.
 

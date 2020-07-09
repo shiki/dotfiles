@@ -58,7 +58,7 @@ $ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-
 $ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper 
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
-$ brew install python git git-crypt yarn autojump lnav watchman tree ncdu
+$ brew install git git-crypt yarn autojump lnav watchman tree ncdu
 ```
 
 ### Others
@@ -303,7 +303,7 @@ $ brew cask install scrcpy
 ## Ansible 
 
 ```bash
-$ brew install ansible
+$ brew install python ansible
 ```
 
 ## Browsers

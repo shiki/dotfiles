@@ -47,6 +47,7 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
      swift
+     php
 
      (org :variables
           ;; Fix indentation

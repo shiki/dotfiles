@@ -492,6 +492,9 @@ before packages are loaded."
 
   ;; Disable line truncation (https://tinyurl.com/uk2lrce)
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
+
+  ;; Disable automatically adding CLOSED timestamp in Org mode
+  (setq org-log-done 'nil)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

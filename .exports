@@ -1,5 +1,2 @@
 # Cocoapods
 export LC_ALL="en_US.UTF-8"
-
-# Include Python
-export PATH=$PATH:$HOME/Library/Python/3.7/bin

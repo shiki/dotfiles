@@ -300,6 +300,8 @@ $ brew cask install scrcpy
     $ brew cask install virtualbox vagrant
     ```
     
+Settings are synchronized using [IDE settings sync using my Jetbrains account](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
+    
 ## Ansible 
 
 ```bash

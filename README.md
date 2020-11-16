@@ -212,9 +212,10 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ## Spacemacs
 
-1. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).
-1. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
-2. Symlink `.spacemacs`
+1. Install [Emacs-plus](https://github.com/syl20bnr/spacemacs#macos).
+2. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).
+3. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
+4. Symlink `.spacemacs`
 
    ```bash
    $ mv .spacemacs .spacemacs.bak

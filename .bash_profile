@@ -85,3 +85,6 @@ alias gw="git worktree"
 alias be="bundle exec"
 alias rd="rake dependencies"
 alias rgx="rake dependencies && git submodule update && xed ."
+
+# Fastlane
+export FASTLANE_SKIP_UPDATE_CHECK=1

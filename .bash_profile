@@ -77,6 +77,9 @@ export NVM_DIR="$HOME/.nvm"
 # Pyenv
 eval "$(pyenv init -)"
 
+# phpbrew
+[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrc
+
 # Aliases
 alias gw="git worktree"
 alias be="bundle exec"

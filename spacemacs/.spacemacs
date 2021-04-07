@@ -490,6 +490,11 @@ before packages are loaded."
           ("DELEGATED" . "#7986cb")
           ))
 
+  (custom-set-faces
+   '(org-headline-done
+     ((((class color) (min-colors 16) (background dark))
+       ))))
+
   ;; Disable line truncation (https://tinyurl.com/uk2lrce)
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
 

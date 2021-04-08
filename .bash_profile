@@ -88,3 +88,13 @@ alias rgx="rake dependencies && git submodule update && xed ."
 
 # Fastlane
 export FASTLANE_SKIP_UPDATE_CHECK=1
+
+# AdoptOpenJDK
+# https://github.com/AdoptOpenJDK/homebrew-openjdk
+jdk() {
+        version=$1
+        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+        java -version
+ }
+
+jdk 1.8

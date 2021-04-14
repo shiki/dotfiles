@@ -1,2 +1,2 @@
-" Map ,p to remove a pair of parentheses from the cursor position.
-nmap ,p f(xf)x
+" Map ds( to remove a pair of surrounding parentheses from the cursor position.
+nmap ds( F(xf)x

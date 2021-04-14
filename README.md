@@ -249,6 +249,10 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
         ln -s ~/.files/xcode/KeyBindings/XVim.idekeybindings.symlink ~/Library/Developer/Xcode/UserData/KeyBindings/XVim.idekeybindings
         ```
     2. Enable the keybinding in XCode → Preferences → Key Bindings
+3. Symlink the `.xvimrc`
+    ```bash
+    ln -s ~/.files/xcode/.xvimrc ~/.xvimrc
+    ```
 
 ### AppCode
 

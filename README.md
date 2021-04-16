@@ -94,6 +94,10 @@ defaults write -g AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ```
 
+### Keyboard Shortcuts
+
+Set the Turn Do Not Disturb On/Off keyboard shortcut to <kbd>⌃⌥⇧⌘D</kbd>. 
+
 ## Bash-it
 
 1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`

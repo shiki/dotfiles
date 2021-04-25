@@ -66,7 +66,7 @@ $ brew install git git-crypt yarn autojump lnav watchman tree ncdu
 These aren't installed through Homebrew
 
 * [Bash it](https://github.com/Bash-it/bash-it)
-* [Powerline fonts](https://github.com/powerline/fonts)
+* [JuliaMono Typeface](https://juliamono.netlify.app/)
 * [FruitJuice](https://itunes.apple.com/us/app/fruitjuice-battery-health/id671736912?mt=12)
 * Google Drive File Stream
 * LastPass

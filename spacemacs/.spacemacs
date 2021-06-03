@@ -500,6 +500,11 @@ before packages are loaded."
 
   ;; Disable automatically adding CLOSED timestamp in Org mode
   (setq org-log-done 'nil)
+
+  ;; Use pandoc for markdown previews
+  (custom-set-variables
+   '(markdown-command "/usr/local/bin/pandoc"))
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

@@ -2,7 +2,7 @@
 
 Contains macOS configuration files for various apps and instructions for setting up a new Mac.
 
-#### Table of Contents 
+#### Table of Contents
 
 - [Preparation](#preparation)
 - [General](#general)
@@ -55,7 +55,7 @@ $ brew tap caskroom/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion toggl
 $ brew cask install docker tower iterm2 macvim visual-studio-code atom cyberduck
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-sqlite
-$ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper 
+$ brew cask install alfred fluid spectacle flycut appcleaner caffeine marta flux keepassxc omnidisksweeper
 $ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
 $ brew install Caskroom/versions/google-chrome-canary
 $ brew install git git-crypt yarn autojump lnav watchman tree ncdu
@@ -80,7 +80,7 @@ These aren't installed through Homebrew
 * [Avira](https://www.avira.com/)
 * [GPG Suite](https://gpgtools.org/)
 * [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
-* [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner. 
+* [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner.
 * [Charles Proxy](https://www.charlesproxy.com/download/latest-release/)
 
 ## macOS
@@ -112,7 +112,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 ## Alfred
 
-Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox. 
+Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox.
 
 These workflows should be automatically installed:
 
@@ -159,16 +159,16 @@ These workflows should be automatically installed:
     # List all available versions
     rbenv install -l
 
-    # Install 
+    # Install
     rbenv install <version>
     ```
-3. Set it as the global version. 
+3. Set it as the global version.
 
    ```bash
    rbenv global <version>
    ```
 
-4. Install global Ruby packages. 
+4. Install global Ruby packages.
 
    ```bash
    gem install bundler cocoapods
@@ -189,7 +189,7 @@ $ git config --global user.email "jayson@basanes.net"
 
 ## Atom
 
-Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist. 
+Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist.
 
 1. Install the [sync-settings](https://github.com/atom-community/sync-settings) package manually in Atom.
 2. Configure sync-settings to fill in the gist id and Github access token
@@ -199,9 +199,9 @@ Atom settings are synchronized using the [sync-settings](https://github.com/atom
 
 VS Code settings are synchronized using the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin. It saves the settings in Gist.
 
-1. Install the plugin. 
-2. After the plugin is installed, follow the steps to _Login with Github_. 
-3. Pick the correct gist to use. 
+1. Install the plugin.
+2. After the plugin is installed, follow the steps to _Login with Github_.
+3. Pick the correct gist to use.
 3. Run the _Sync: Download Settings_ to download and apply the settings.
 
 [Disable press and hold](https://stackoverflow.com/a/44010683) so that VS Code will repeat any key that is being held:
@@ -224,7 +224,7 @@ $ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ## MacVIM
 
-1. Symlink `.vim` 
+1. Symlink `.vim`
 
    ```bash
    $ ln -s ~/.files/vim/vim.symlink ~/.vim
@@ -261,13 +261,13 @@ $ brew cask install appcode
 AppCode settings are synchronized using a git repo.
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
-2. Use the `appcode-settings` Github repo. 
+2. Use the `appcode-settings` Github repo.
 
 ### iOS Dev Tools
 
 ```bash
-$ brew cask install simsim 
-$ brew install carthage swiftformat 
+$ brew cask install simsim
+$ brew install carthage swiftformat
 ```
 
 ## Android Development
@@ -280,10 +280,10 @@ Install Android Studio via Homebrew:
 $ brew cask install android-studio
 ```
 
-Android Studio settings are synchronized using a git repo. 
+Android Studio settings are synchronized using a git repo.
 
 1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
-2. Use the `android-studio-settings` Github repo. 
+2. Use the `android-studio-settings` Github repo.
 
 ### Android Dev Tools
 
@@ -300,10 +300,10 @@ $ brew cask install scrcpy
     $ brew install php composer
     $ brew cask install virtualbox vagrant
     ```
-    
+
 Settings are synchronized using [IDE settings sync using my Jetbrains account](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
-    
-## Ansible 
+
+## Ansible
 
 ```bash
 $ brew install python ansible

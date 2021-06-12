@@ -75,6 +75,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 # phpbrew
@@ -85,6 +88,7 @@ alias gw="git worktree"
 alias be="bundle exec"
 alias rd="rake dependencies"
 alias rgx="rake dependencies && git submodule update && xed ."
+unalias gh
 
 # Fastlane
 export FASTLANE_SKIP_UPDATE_CHECK=1

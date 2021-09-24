@@ -499,7 +499,7 @@ before packages are loaded."
   (add-hook 'text-mode-hook 'spacemacs/toggle-visual-line-navigation-on)
 
   ;; Disable automatically adding CLOSED timestamp in Org mode
-  ;; (setq org-log-done 'nil)
+  (setq org-log-done 'nil)
 
   ;; Use pandoc for markdown previews
   (custom-set-variables

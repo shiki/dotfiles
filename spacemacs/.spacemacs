@@ -561,7 +561,11 @@ before packages are loaded."
           ))
 
   (define-key evil-normal-state-map (kbd "t") 'org-todo)
-  (define-key evil-normal-state-map (kbd "T") 'org-insert-todo-heading)
+  (define-key evil-normal-state-map (kbd "T") 'org-insert-todo-heading-respect-content)
+  (global-set-key (kbd "M-k") 'org-metaup)
+  (global-set-key (kbd "M-l") 'org-metaright)
+  (global-set-key (kbd "M-j") 'org-metadown)
+  (global-set-key (kbd "M-h") 'org-metaleft)
 
   (custom-set-faces
    '(org-headline-done

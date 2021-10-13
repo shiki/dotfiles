@@ -561,6 +561,7 @@ before packages are loaded."
           ))
 
   (define-key evil-normal-state-map (kbd "t") 'org-todo)
+  (define-key evil-normal-state-map (kbd "T") 'org-insert-todo-heading)
 
   (custom-set-faces
    '(org-headline-done

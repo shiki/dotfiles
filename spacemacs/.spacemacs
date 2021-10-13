@@ -560,6 +560,8 @@ before packages are loaded."
           ("DELEGATED" . "#7986cb")
           ))
 
+  (define-key evil-normal-state-map (kbd "t") 'org-todo)
+
   (custom-set-faces
    '(org-headline-done
      ((((class color) (min-colors 16) (background dark))

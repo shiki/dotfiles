@@ -32,7 +32,7 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(html
+   '(
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
@@ -48,6 +48,7 @@ This function should only modify configuration layer settings."
      multiple-cursors
      swift
      php
+     html
 
      (org :variables
           ;; Fix indentation

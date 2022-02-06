@@ -140,13 +140,7 @@ These workflows should be automatically installed:
 2. Install the latest Node version.
 
     ```bash
-    nvm intall <version>
-    ```
-
-3. Install global packages.
-
-    ```bash
-    npm install -g machine-share
+    nvm intall node
     ```
 
 ## Ruby

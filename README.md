@@ -51,7 +51,7 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-$ brew tap caskroom/cask
+$ brew tap homebrew/cask
 $ brew cask install dropbox google-chrome spotify slack firefox notion toggl
 $ brew cask install docker tower iterm2 macvim visual-studio-code atom cyberduck
 $ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-sqlite

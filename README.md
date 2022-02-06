@@ -66,7 +66,6 @@ $ brew install proxyman
 
 These aren't installed through Homebrew
 
-* [Bash it](https://github.com/Bash-it/bash-it)
 * [JuliaMono Typeface](https://juliamono.netlify.app/)
 * LastPass
 * [Things](https://culturedcode.com/things/)
@@ -99,13 +98,14 @@ Set the Turn Do Not Disturb On/Off keyboard shortcut to <kbd>⌃⌥⇧⌘D</kbd>
 
 ## Bash-it
 
-1. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
+1. Install [Bash it](https://github.com/Bash-it/bash-it)
+2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
 
     ```bash
     ln -s ~/.files/.bash_profile ~/.bash_profile
     ```
-2. Restart Terminal or iTerm2
-3. Enable plugins, aliases, and completions
+3. Restart Terminal or iTerm2
+4. Enable plugins, aliases, and completions
 
    ```bash
    $ bash-it enable plugin git autojump edit-mode-vi history

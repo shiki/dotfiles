@@ -195,17 +195,12 @@ Atom settings are synchronized using the [sync-settings](https://github.com/atom
 
 ## VS Code
 
-VS Code settings are synchronized using the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) plugin. It saves the settings in Gist.
-
-1. Install the plugin.
-2. After the plugin is installed, follow the steps to _Login with Github_.
-3. Pick the correct gist to use.
-3. Run the _Sync: Download Settings_ to download and apply the settings.
+VS Code settings are synchronized using the [built-in Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync). Turn the Settings Sync on and log in using GitHub.
 
 [Disable press and hold](https://stackoverflow.com/a/44010683) so that VS Code will repeat any key that is being held:
 
 ```
-$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false   
 ```
 
 ## Spacemacs

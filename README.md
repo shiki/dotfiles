@@ -58,7 +58,7 @@ $ brew install sequel-ace psequel postgresql
 $ brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle
 $ brew install adobe-acrobat-reader handbrake
 $ brew install homebrew/cask-versions/google-chrome-canary
-$ brew install git git-crypt yarn autojump lnav watchman tree ncdu
+$ brew install git git-crypt lnav tree
 $ brew install proxyman
 ```
 

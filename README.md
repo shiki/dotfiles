@@ -52,11 +52,11 @@ Contains macOS configuration files for various apps and instructions for setting
 
 ```bash
 $ brew tap homebrew/cask
-$ brew cask install dropbox google-chrome spotify slack firefox notion toggl
-$ brew cask install docker tower iterm2 macvim visual-studio-code atom cyberduck
-$ brew cask install mysqlworkbench psequel sequel-pro postgresql db-browser-for-sqlite
-$ brew cask install alfred fluid spectacle appcleaner caffeine marta flux keepassxc omnidisksweeper
-$ brew cask install google-photos-backup-and-sync adobe-acrobat-reader handbrake vlc libreoffice
+$ brew install dropbox google-chrome spotify slack firefox notion 
+$ brew install docker tower iterm2 macvim visual-studio-code atom cyberduck
+$ brew install mysqlworkbench psequel sequel-pro postgresql db-browser-for-sqlite
+$ brew install alfred fluid spectacle appcleaner caffeine marta flux keepassxc omnidisksweeper
+$ brew install adobe-acrobat-reader handbrake
 $ brew install Caskroom/versions/google-chrome-canary
 $ brew install git git-crypt yarn autojump lnav watchman tree ncdu
 ```

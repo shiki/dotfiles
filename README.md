@@ -80,6 +80,7 @@ These aren't installed through Homebrew
 * [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
 * [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner.
 * [Timelane](https://timelane.tools)
+* [Core Data Lab](https://betamagic.nl/products/coredatalab.html)
 
 ## macOS
 

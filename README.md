@@ -51,28 +51,29 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-$ brew tap homebrew/cask
-$ brew install dropbox google-chrome spotify slack firefox notion clockify
-$ brew install iterm2 macvim visual-studio-code
-$ brew install sequel-ace psequel postgresql 
-$ brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle
-$ brew install adobe-acrobat-reader handbrake
-$ brew install homebrew/cask-versions/google-chrome-canary
-$ brew install git git-crypt lnav tree
-$ brew install proxyman
+brew tap homebrew/cask
+brew install dropbox google-chrome spotify slack firefox notion clockify
+brew install iterm2 macvim visual-studio-code
+brew install sequel-ace psequel postgresql
+brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle
+brew install adobe-acrobat-reader handbrake
+brew install homebrew/cask-versions/google-chrome-canary
+brew install git git-crypt lnav tree
+brew install proxyman
+
+# Install JuliaMono Typeface (https://juliamono.netlify.app/)
+brew tap homebrew/cask-fonts
+brew install --cask font-juliamono
 ```
 
 ### Others
 
 These aren't installed through Homebrew
 
-* [JuliaMono Typeface](https://juliamono.netlify.app/)
 * LastPass
 * [Things](https://culturedcode.com/things/)
-* [Tomato One](https://apps.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12)
 * [Pocket](https://apps.apple.com/app/pocket/id568494494?ls=1&mt=12)
 * [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655?mt=12)
-* [Logitech Options](http://support.logitech.com/en_us/software/options)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
 * [GPG Suite](https://gpgtools.org/)

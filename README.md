@@ -296,20 +296,17 @@ brew install scrcpy
 
 ## PHP Development
 
-1. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
-2. Install Homebrew packages
-
-    ```
-    $ brew install php composer
-    $ brew cask install virtualbox vagrant
-    ```
+1. Install [phpbrew](https://github.com/phpbrew/phpbrew).
+2. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
 
 Settings are synchronized using [IDE settings sync using my Jetbrains account](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
 
 ## Ansible
 
+Install [pyenv](https://github.com/pyenv/pyenv).
+
 ```bash
-$ brew install python ansible
+brew install ansible
 ```
 
 ## Browsers

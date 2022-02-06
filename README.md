@@ -319,6 +319,12 @@ Install [pyenv](https://github.com/pyenv/pyenv).
 brew install ansible
 ```
 
+## JDK
+
+```bash
+brew install --cask temurin
+```
+
 ## Browsers
 
 ### Chrome

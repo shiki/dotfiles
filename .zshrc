@@ -110,7 +110,17 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(rbenv init -)"
 
 # PHPBrew
-[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrceval "$(pyenv init -)"
+[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrc
 
 # Pyenv
 eval "$(pyenv init -)"
+
+# JDK
+
+jdk() {
+        version=$1
+        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+        java -version
+ }
+
+#jdk 1.8

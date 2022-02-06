@@ -296,8 +296,18 @@ brew install scrcpy
 
 ## PHP Development
 
+1. Install `php`
+
+    ```
+    brew install php
+    ```
+
 1. Install [phpbrew](https://github.com/phpbrew/phpbrew).
-2. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
+3. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
+
+   ```
+   brew install phpstorm
+   ```
 
 Settings are synchronized using [IDE settings sync using my Jetbrains account](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html).
 

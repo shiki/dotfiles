@@ -108,3 +108,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Rbenv 
 eval "$(rbenv init -)"
+
+# PHPBrew
+[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrc

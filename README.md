@@ -270,8 +270,7 @@ AppCode settings are synchronized using a git repo.
 ### iOS Dev Tools
 
 ```bash
-$ brew cask install simsim
-$ brew install carthage swiftformat
+brew install simsim swiftformat
 ```
 
 ## Android Development
@@ -281,7 +280,7 @@ $ brew install carthage swiftformat
 Install Android Studio via Homebrew:
 
 ```bash
-$ brew cask install android-studio
+brew install android-studio
 ```
 
 Android Studio settings are synchronized using a git repo.
@@ -292,7 +291,7 @@ Android Studio settings are synchronized using a git repo.
 ### Android Dev Tools
 
 ```bash
-$ brew cask install scrcpy
+brew install scrcpy
 ```
 
 ## PHP Development

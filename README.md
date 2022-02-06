@@ -148,7 +148,7 @@ These workflows should be automatically installed:
 1. Install `rbenv`
 
    ```bash
-   $ brew install rbenv
+   brew install rbenv
    ```
 
 2. Install the latest Ruby version.

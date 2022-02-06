@@ -110,4 +110,7 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(rbenv init -)"
 
 # PHPBrew
-[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrc
+[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrceval "$(pyenv init -)"
+
+# Pyenv
+eval "$(pyenv init -)"

@@ -120,7 +120,7 @@ Set the Turn Do Not Disturb On/Off keyboard shortcut to <kbd>⌃⌥⇧⌘D</kbd>
 2. Install dependencies
 
     ```bash
-    brew install zoxide
+    brew install zoxide fzf
     ```
 3. Symlink `dotfiles/.zshrc` to `~/.zshrc`
 

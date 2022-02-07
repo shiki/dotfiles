@@ -114,6 +114,20 @@ Set the Turn Do Not Disturb On/Off keyboard shortcut to <kbd>⌃⌥⇧⌘D</kbd>
    $ bash-it enable completion npm git docker docker-compose docker-machine bundler
    ```
 
+## Oh My Zsh!
+
+1. Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
+2. Install dependencies
+
+    ```bash
+    brew install zoxide
+    ```
+3. Symlink `dotfiles/.zshrc` to `~/.zshrc`
+
+    ```bash
+    ln -s ~/.files/.zshrc ~/.zshrc
+    ```
+
 ## Alfred
 
 Follow the instructions in [Sync your Alfred settings between Macs](https://www.alfredapp.com/help/advanced/sync/) to synchronize the settings using Dropbox.

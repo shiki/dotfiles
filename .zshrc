@@ -1,6 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Add Homebrew bin to PATH
+export PATH=/opt/homebrew/bin:$PATH
+
+# Zoxide (https://github.com/ajeetdsouza/zoxide)
+eval "$(zoxide init zsh)"
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -70,14 +76,13 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=/opt/homebrew/bin:$PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

@@ -319,10 +319,11 @@ Install [pyenv](https://github.com/pyenv/pyenv).
 brew install ansible
 ```
 
-## JDK
+## Java
 
 ```bash
 brew install --cask temurin
+brew install intellij-idea
 ```
 
 ## Browsers

@@ -49,6 +49,7 @@ This function should only modify configuration layer settings."
      swift
      php
      html
+     osx
 
      (org :variables
           ;; Fix indentation

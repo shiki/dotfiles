@@ -52,7 +52,7 @@ Contains macOS configuration files for various apps and instructions for setting
 
 ```bash
 brew tap homebrew/cask
-brew install dropbox google-chrome spotify slack firefox notion clockify zoom
+brew install dropbox google-chrome spotify slack firefox notion clockify zoom krisp
 brew install iterm2 macvim visual-studio-code
 brew install sequel-ace psequel postgresql
 brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle

@@ -58,7 +58,7 @@ brew install sequel-ace psequel postgresql
 brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle
 brew install adobe-acrobat-reader handbrake
 brew install homebrew/cask-versions/google-chrome-canary
-brew install git git-crypt lnav tree
+brew install git git-crypt lnav tree wget
 brew install proxyman
 
 # Install JuliaMono Typeface (https://juliamono.netlify.app/)

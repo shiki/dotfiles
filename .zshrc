@@ -5,7 +5,7 @@
 export PATH=/opt/homebrew/bin:$PATH
 
 # Zoxide (https://github.com/ajeetdsouza/zoxide)
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd j zsh)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -135,3 +135,4 @@ alias gw="git worktree"
 alias be="bundle exec"
 alias rd="rake dependencies"
 alias rgx="rake dependencies && git submodule update && xed ."
+

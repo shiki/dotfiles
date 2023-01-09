@@ -14,7 +14,6 @@ Contains macOS configuration files for various apps and instructions for setting
 - [NodeJS](#nodejs)
 - [Ruby](#ruby)
 - [Git](#git)
-- [Atom](#atom)
 - [VS Code](#vs-code)
 - [Spacemacs](#spacemacs)
 - [MacVIM](#macvim)
@@ -198,14 +197,6 @@ These workflows should be automatically installed:
 $ git config --global user.name "Shiki"
 $ git config --global user.email "jayson@basanes.net"
 ```
-
-## Atom
-
-Atom settings are synchronized using the [sync-settings](https://github.com/atom-community/sync-settings) package. It saves the settings in Gist.
-
-1. Install the [sync-settings](https://github.com/atom-community/sync-settings) package manually in Atom.
-2. Configure sync-settings to fill in the gist id and Github access token
-3. Run the _Sync Settings: Restore_ command in Atom
 
 ## VS Code
 

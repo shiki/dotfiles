@@ -54,7 +54,7 @@ brew tap homebrew/cask
 brew install dropbox google-chrome spotify slack firefox notion clockify zoom krisp
 brew install iterm2 macvim visual-studio-code
 brew install sequel-ace psequel postgresql
-brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle
+brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle espanso
 brew install adobe-acrobat-reader handbrake
 brew install homebrew/cask-versions/google-chrome-canary
 brew install git git-crypt lnav tree wget gh
@@ -146,6 +146,14 @@ These workflows should be automatically installed:
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
 * [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
+
+## Espanso
+
+Symlink `dotfiles/espanso` to the path defined by the `espanso path config` command.
+
+```bash
+symlink_target=$(espanso path config) && rm -rf "$symlink_target" && ln -sf ~/.files/espanso "$symlink_target" 
+```
 
 ## NodeJS
 

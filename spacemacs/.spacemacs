@@ -50,22 +50,15 @@ This function should only modify configuration layer settings."
      php
      html
      osx
-
-     (org :variables
-          ;; Fix indentation
-          org-startup-indented t
-          org-indent-mode t
-          ;; Enable toggling TODO with t https://git.io/Jv6By
-          org-want-todo-bindings t)
-
+     ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      ;; spell-checking
      ;; syntax-checking
-     treemacs
      ;; version-control
-     )
+     treemacs)
+
 
    ;; List of additional packages that will be installed without being wrapped
    ;; in a layer (generally the packages are installed only and should still be

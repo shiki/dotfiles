@@ -50,9 +50,8 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-brew tap homebrew/cask
 brew install dropbox google-chrome spotify slack firefox notion clockify zoom krisp
-brew install iterm2 macvim visual-studio-code
+brew install macvim visual-studio-code
 brew install sequel-ace psequel postgresql
 brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle espanso
 brew install adobe-acrobat-reader handbrake
@@ -69,17 +68,11 @@ brew install --cask font-juliamono
 
 These aren't installed through Homebrew
 
-* LastPass
+* [1Password](https://1password.com)
 * [Things](https://culturedcode.com/things/)
-* [Pocket](https://apps.apple.com/app/pocket/id568494494?ls=1&mt=12)
-* [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655?mt=12)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
-* [GPG Suite](https://gpgtools.org/)
-* [GIF Brewery](https://apps.apple.com/ca/app/gif-brewery-3-by-gfycat/id1081413713)
-* [Additional Tools for Xcode](https://developer.apple.com/download/more/?q=Additional%20Tools). Includes Network Link Conditioner.
-* [Timelane](https://timelane.tools)
-* [Core Data Lab](https://betamagic.nl/products/coredatalab.html)
+
 
 ## macOS
 
@@ -202,8 +195,8 @@ symlink_target=$(espanso path config) && rm -rf "$symlink_target" && ln -sf ~/.f
 ## Git
 
 ```bash
-$ git config --global user.name "Shiki"
-$ git config --global user.email "jayson@basanes.net"
+git config --global user.name "Shiki"
+git config --global user.email "GITHUB_NOREPLY_EMAIL_ADDRESS"
 ```
 
 ## VS Code
@@ -218,7 +211,6 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ## Spacemacs
 
-1. Install Emacs using [emacs-mac](https://github.com/syl20bnr/spacemacs#using-emacs-mac).
 2. Install [Emacs-plus](https://github.com/syl20bnr/spacemacs#macos). 
 3. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).
 4. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.

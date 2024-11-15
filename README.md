@@ -79,15 +79,13 @@ These aren't installed through Homebrew
 ```bash
 # Always show hidden files
 defaults write -g AppleShowAllFiles -bool true
+# Restart Finder 
+killall Finder
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ```
-
-### Keyboard Shortcuts
-
-Set the Turn Do Not Disturb On/Off keyboard shortcut to <kbd>⌃⌥⇧⌘D</kbd>. 
 
 ## Bash-it
 

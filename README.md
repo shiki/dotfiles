@@ -211,20 +211,13 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 ## Spacemacs
 
-2. Install [Emacs-plus](https://github.com/syl20bnr/spacemacs#macos). 
-3. Install [Source Code Pro fonts](https://github.com/adobe-fonts/source-code-pro).
-4. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
-5. Install other dependencies.
-
-    ```bash
-    brew install pandoc
-    ```
-
-6. Symlink `.spacemacs`
+1. Install [Emacs-plus](https://github.com/syl20bnr/spacemacs#macos). 
+2. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
+3. Symlink `.spacemacs`
 
    ```bash
-   $ mv .spacemacs .spacemacs.bak
-   $ ln -s .files/spacemacs/.spacemacs .spacemacs
+   mv .spacemacs .spacemacs.bak
+   ln -s .files/spacemacs/.spacemacs .spacemacs
    ```
 
 ## MacVIM

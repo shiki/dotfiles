@@ -49,13 +49,12 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-brew install dropbox google-chrome spotify slack firefox notion clockify zoom krisp
-brew install macvim visual-studio-code
-brew install sequel-ace psequel postgresql
-brew install alfred appcleaner caffeine marta keepassxc omnidisksweeper rectangle espanso
+brew install dropbox google-chrome google-chrome@canary slack firefox notion zoom
+brew install visual-studio-code
+brew install sequel-ace
+brew install alfred appcleaner marta keepassxc omnidisksweeper rectangle espanso
 brew install adobe-acrobat-reader handbrake
-brew install homebrew/cask-versions/google-chrome-canary
-brew install git git-crypt lnav tree wget gh
+brew install git lnav tree wget gh
 brew install proxyman
 
 # Install JuliaMono Typeface (https://juliamono.netlify.app/)
@@ -69,6 +68,7 @@ These aren't installed through Homebrew
 
 * [1Password](https://1password.com)
 * [Things](https://culturedcode.com/things/)
+* [Toggl Track](https://toggl.com)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
 

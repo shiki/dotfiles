@@ -9,7 +9,6 @@ Contains macOS configuration files for various apps and instructions for setting
     - [Homebrew Packages](#homebrew-packages)
     - [Others](#others)
 - [macOS](#macos)
-- [Bash-it](#bash-it)
 - [Alfred](#alfred)
 - [NodeJS](#nodejs)
 - [Ruby](#ruby)

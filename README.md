@@ -87,23 +87,6 @@ killall Finder
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ```
 
-## Bash-it
-
-1. Install [Bash it](https://github.com/Bash-it/bash-it)
-2. Symlink `dotfiles/.bash_profile` to `~/.bash_profile`
-
-    ```bash
-    ln -s ~/.files/.bash_profile ~/.bash_profile
-    ```
-3. Restart Terminal or iTerm2
-4. Enable plugins, aliases, and completions
-
-   ```bash
-   $ bash-it enable plugin git autojump edit-mode-vi history
-   $ bash-it enable alias git
-   $ bash-it enable completion npm git docker docker-compose docker-machine bundler
-   ```
-
 ## Oh My Zsh!
 
 1. Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)

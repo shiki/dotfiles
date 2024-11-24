@@ -113,10 +113,10 @@ These workflows should be automatically installed:
 
 ## Espanso
 
-Symlink `dotfiles/espanso` to the path defined by the `espanso path config` command.
+Clone the private espanso repository to `~/.espanso`.
 
 ```bash
-symlink_target=$(espanso path config) && rm -rf "$symlink_target" && ln -sf ~/.files/espanso "$symlink_target" 
+git clone ESPANSO_REPO_SSH_URL ~/.espanso
 ```
 
 ## NodeJS

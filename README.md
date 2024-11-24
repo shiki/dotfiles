@@ -49,7 +49,7 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-brew install dropbox google-chrome google-chrome@canary slack firefox notion zoom
+brew install dropbox google-chrome google-chrome@canary slack firefox notion zoom obsidian
 brew install visual-studio-code
 brew install sequel-ace
 brew install alfred appcleaner marta keepassxc omnidisksweeper rectangle espanso

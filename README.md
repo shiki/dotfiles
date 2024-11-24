@@ -102,16 +102,6 @@ Follow the instructions in [Sync your Alfred settings between Macs](https://www.
 
 These workflows should be automatically installed:
 
-* [Convert](https://github.com/deanishe/alfred-convert)
-* [Encode/Decode](https://github.com/willfarrell/alfred-encode-decode-workflow)
-* [DevDocs](https://github.com/yannickglt/alfred-devdocs)
-* [Faker](https://github.com/zenorocha/alfred-workflows)
-* [Github](https://github.com/gharlan/alfred-github-workflow)
-* [IP Address](https://github.com/zenorocha/alfred-workflows)
-* [Kill Process](https://github.com/zenorocha/alfred-workflows)
-* [Pomodoro](https://github.com/ecbrodie/pomodoro-alfred)
-* [Spotify Mini Player](http://alfred-spotify-mini-player.com/)
-* [Stack Overflow](https://github.com/zenorocha/alfred-workflows)
 * [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
 * [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
 * [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)

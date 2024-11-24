@@ -102,9 +102,14 @@ Follow the instructions in [Sync your Alfred settings between Macs](https://www.
 
 These workflows should be automatically installed:
 
-* [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
-* [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
-* [UUID Generator](http://www.packal.org/workflow/uuid-generator-0)
+- [Calm Notifications](https://alfred.app/workflows/vitor/calm-notifications/)
+- [Shimmering Obsidian](https://alfred.app/workflows/chrisgrieser/shimmering-obsidian/)
+- [Unit Converter](https://alfred.app/workflows/alfredapp/unit-converter/)
+- [Terminal-Finder](https://github.com/LeEnno/alfred-terminalfinder)
+- [1Password](https://alfred.app/workflows/alfredapp/1password/)
+- [Shortcuts](https://alfred.app/workflows/alfredapp/shortcuts/)
+- [Currency Converter](https://alfred.app/workflows/alfredapp/currency-converter/)
+- [TimeZones](https://github.com/jaroslawhartman/TimeZones-Alfred)
 
 ## Espanso
 

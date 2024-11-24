@@ -56,6 +56,7 @@ brew install alfred appcleaner marta keepassxc omnidisksweeper rectangle espanso
 brew install adobe-acrobat-reader handbrake
 brew install git lnav tree wget gh
 brew install proxyman
+brew install zoxide fzf
 
 # Install JuliaMono Typeface (https://juliamono.netlify.app/)
 brew tap homebrew/cask-fonts
@@ -89,12 +90,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ## Oh My Zsh!
 
 1. Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
-2. Install dependencies
-
-    ```bash
-    brew install zoxide fzf
-    ```
-3. Symlink `dotfiles/.zshrc` to `~/.zshrc`
+2. Symlink `dotfiles/.zshrc` to `~/.zshrc`
 
     ```bash
     ln -s ~/.files/.zshrc ~/.zshrc

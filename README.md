@@ -15,7 +15,6 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Git](#git)
 - [VS Code](#vs-code)
 - [Spacemacs](#spacemacs)
-- [MacVIM](#macvim)
 - [iOS Development](#ios-development)
     - [Xcode](#xcode)
     - [AppCode](#appcode)
@@ -190,22 +189,6 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
    mv .spacemacs .spacemacs.bak
    ln -s .files/spacemacs/.spacemacs .spacemacs
    ```
-
-## MacVIM
-
-1. Symlink `.vim`
-
-   ```bash
-   $ ln -s ~/.files/vim/vim.symlink ~/.vim
-   ```
-2. Install [Vundle](https://github.com/VundleVim/Vundle.vim). Follow all instructions until the `:PluginInstall` has been executed
-3. Symlink `.vimrc`
-   ```bash
-   $ rm ~/.vimrc
-   $ ln -s ~/.files/vim/vimrc.symlink ~/.vimrc
-   ```
-4. In MacVIM, run `:PluginInstall` to install all plugins. This instructs the [Vundle](https://github.com/VundleVim/Vundle.vim) package to install all the other packages managed by it.
-5. The VIM config uses DejaVu Sans Mono for Powerline. For VIM to use this font in the terminal, make sure to set this font as the default font in the Terminal or iTerm2.
 
 ## iOS Development
 

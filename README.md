@@ -23,7 +23,6 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Browsers](#browsers)
     - [Chrome](#chrome)
     - [Firefox](#firefox)
-- [Fluid](#fluid)
 - [Others](#others)
 - [References](#references)
 

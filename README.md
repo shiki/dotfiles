@@ -157,7 +157,7 @@ git clone ESPANSO_REPO_SSH_URL ~/.espanso
    gem install bundler cocoapods
    ```
 
-5. Prepare Cocoapods repo. This usually takes a long time.
+5. Prepare Cocoapods repo. This could take a long time.
 
    ```bash
    pod setup
@@ -177,7 +177,7 @@ VS Code settings are synchronized using the [built-in Settings Sync](https://cod
 [Disable press and hold](https://stackoverflow.com/a/44010683) so that VS Code will repeat any key that is being held:
 
 ```
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false   
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 ```
 
 ## Spacemacs

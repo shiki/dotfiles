@@ -23,7 +23,6 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Browsers](#browsers)
     - [Chrome](#chrome)
     - [Firefox](#firefox)
-- [iTerm2](#iterm2)
 - [Fluid](#fluid)
 - [Others](#others)
 - [References](#references)
@@ -67,6 +66,7 @@ These aren't installed through Homebrew
 * [Toggl Track](https://toggl.com)
 * [Paragon NTFS](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/download.html)
+* [Google Meet](https://support.google.com/meet/answer/10708569?hl=en)
 
 
 ## macOS
@@ -265,16 +265,6 @@ Install these extensions.
 * [Markdown Here](https://addons.mozilla.org/en-CA/firefox/addon/markdown-here/)
 * [Copy Selection as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-selection-as-markdown/?src=search)
 * [Momentum](https://addons.mozilla.org/en-CA/firefox/addon/momentumdash/)
-
-## iTerm2
-
-Install themes from http://iterm2colorschemes.com/
-
-* Flatland
-* Dracula
-* Hardcore
-* Japanesque
-* Space Grey Eighties Dull
 
 ## Others
 

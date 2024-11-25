@@ -121,7 +121,7 @@ git clone ESPANSO_REPO_SSH_URL ~/.espanso
 
 ## NodeJS
 
-1. Install [nvm](https://github.com/creationix/nvm#git-install).
+1. Install [nvm](https://github.com/nvm-sh/nvm).
 2. Install the latest Node version.
 
     ```bash

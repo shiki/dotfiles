@@ -1,2 +1,0 @@
-" Map ds( to remove a pair of surrounding parentheses from the cursor position.
-nmap ds( mpF(xf)a<BS><ESC>`p

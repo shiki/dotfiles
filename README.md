@@ -15,10 +15,6 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Git](#git)
 - [VS Code](#vs-code)
 - [Spacemacs](#spacemacs)
-- [iOS Development](#ios-development)
-    - [Xcode](#xcode)
-    - [AppCode](#appcode)
-    - [iOS Dev Tools](#ios-dev-tools)
 - [Android Development](#android-development)
     - [Android Studio](#android-studio)
     - [Android Dev Tools](#android-dev-tools)
@@ -189,41 +185,6 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
    mv .spacemacs .spacemacs.bak
    ln -s .files/spacemacs/.spacemacs .spacemacs
    ```
-
-## iOS Development
-
-### Xcode
-
-1. Install the [XVim2 plugin](https://github.com/XVimProject/XVim2).
-2. Install the custom keybindings.
-    1. Symlink `XVim.idekeybindings.symlink`
-        ```bash
-        ln -s ~/.files/xcode/KeyBindings/XVim.idekeybindings.symlink ~/Library/Developer/Xcode/UserData/KeyBindings/XVim.idekeybindings
-        ```
-    2. Enable the keybinding in XCode → Preferences → Key Bindings
-3. Symlink the `.xvimrc`
-    ```bash
-    ln -s ~/.files/xcode/.xvimrc ~/.xvimrc
-    ```
-
-### AppCode
-
-Install AppCode via Homebrew:
-
-```bash
-$ brew cask install appcode
-```
-
-AppCode settings are synchronized using a git repo.
-
-1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
-2. Use the `appcode-settings` Github repo.
-
-### iOS Dev Tools
-
-```bash
-brew install simsim swiftformat
-```
 
 ## Android Development
 

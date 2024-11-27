@@ -134,3 +134,7 @@ alias gw="git worktree"
 alias be="bundle exec"
 alias rd="rake dependencies"
 alias rgx="rake dependencies && git submodule update && xed ."
+# Activate pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

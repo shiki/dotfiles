@@ -45,7 +45,7 @@ Contains macOS configuration files for various apps and instructions for setting
 brew install dropbox google-chrome google-chrome@canary slack firefox notion zoom obsidian
 brew install visual-studio-code
 brew install sequel-ace
-brew install alfred appcleaner marta keepassxc omnidisksweeper rectangle espanso
+brew install alfred appcleaner marta keepassxc omnidisksweeper rectangle espanso dozer
 brew install adobe-acrobat-reader handbrake
 brew install git lnav tree wget gh
 brew install proxyman

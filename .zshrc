@@ -110,24 +110,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
-# JDK
-
-jdk() {
-        version=$1
-        export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
-        java -version
- }
-
-#jdk 1.8
 # Activate rbenv
 eval "$(rbenv init - --no-rehash zsh)"
 
-# Aliases
-alias gw="git worktree"
-alias be="bundle exec"
-alias rd="rake dependencies"
-alias rgx="rake dependencies && git submodule update && xed ."
 # Activate pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
@@ -135,3 +120,9 @@ eval "$(pyenv init -)"
 
 # Activate phpbrew
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
+# Aliases
+alias gw="git worktree"
+alias be="bundle exec"
+alias rd="rake dependencies"
+alias rgx="rake dependencies && git submodule update && xed ."

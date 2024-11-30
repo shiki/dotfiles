@@ -214,7 +214,7 @@ brew install scrcpy
     brew install php
     ```
 
-1. Install [phpbrew](https://github.com/phpbrew/phpbrew).
+2. Install [phpbrew](https://github.com/phpbrew/phpbrew).
 3. Install [PhpStorm](https://www.jetbrains.com/phpstorm/).
 
    ```

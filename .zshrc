@@ -111,12 +111,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-# PHPBrew
-[[ -e $HOME/.phpbrew/bashrc ]] && source $HOME/.phpbrew/bashrc
-
-# Pyenv
-eval "$(pyenv init -)"
-
 # JDK
 
 jdk() {
@@ -138,3 +132,6 @@ alias rgx="rake dependencies && git submodule update && xed ."
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Activate phpbrew
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc

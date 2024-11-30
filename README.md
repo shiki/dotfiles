@@ -81,10 +81,14 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ## Oh My Zsh!
 
 1. Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
-2. Symlink `dotfiles/.zshrc` to `~/.zshrc`
+2. Symlink ZSH files
 
     ```bash
+    mv ~/.zshrc ~/.zshrc.bak
     ln -s ~/.files/.zshrc ~/.zshrc
+
+    mv ~/.zprofile ~/.zprofile.bak
+    ln -s ~/.files/.zprofile ~/.zprofile
     ```
 
 ## Alfred

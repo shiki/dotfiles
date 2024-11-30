@@ -20,9 +20,6 @@ Contains macOS configuration files for various apps and instructions for setting
     - [Android Dev Tools](#android-dev-tools)
 - [PHP Development](#php-development)
 - [Ansible](#ansible)
-- [Browsers](#browsers)
-    - [Chrome](#chrome)
-    - [Firefox](#firefox)
 - [Others](#others)
 - [References](#references)
 
@@ -237,33 +234,6 @@ brew install ansible
 brew install --cask temurin
 brew install intellij-idea
 ```
-
-## Browsers
-
-### Chrome
-
-Install these extensions.
-
-* [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
-* [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa?hl=en)
-* [Copy as Markdown](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)
-* [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
-* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
-* [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en)
-* [Url Shortener](https://chrome.google.com/webstore/detail/url-shortener/oodfdmglhbbkkcngodjjagblikmoegpa?hl=en)
-* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
-* [Git.io URL Shortener](https://chrome.google.com/webstore/detail/gitio-url-shortener/baceaeopmlhkjbljoiinmbnnmpokgiml?hl=en)
-
-### Firefox
-
-Install these extensions.
-
-* [LastPass](https://addons.mozilla.org/en-CA/firefox/addon/lastpass-password-manager/)
-* [uBlock Origin](https://addons.mozilla.org/en-CA/firefox/addon/ublock-origin/)
-* [Link Shortener](https://addons.mozilla.org/en-US/firefox/addon/link-shortener/)
-* [Markdown Here](https://addons.mozilla.org/en-CA/firefox/addon/markdown-here/)
-* [Copy Selection as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-selection-as-markdown/?src=search)
-* [Momentum](https://addons.mozilla.org/en-CA/firefox/addon/momentumdash/)
 
 ## Others
 

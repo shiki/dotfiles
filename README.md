@@ -171,8 +171,8 @@ VS Code settings are synchronized using the [built-in Settings Sync](https://cod
 
 [Disable press and hold](https://stackoverflow.com/a/44010683) so that VS Code will repeat any key that is being held:
 
-```
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
 ## Spacemacs

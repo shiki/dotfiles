@@ -50,7 +50,7 @@ This function should only modify configuration layer settings."
      php
      html
      osx
-     ;; org
+     org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

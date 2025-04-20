@@ -594,8 +594,13 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  ;; Enable org-modern globally
-  (global-org-modern-mode)
+  ;; Org-modern indentation settings
+  (setq org-modern-block-indent t
+        org-startup-indented t)    ; to enable org-indent-mode by default
+
+  ;; Enable org-modern in org buffers
+  (add-hook 'org-mode-hook #'org-modern-mode)
+
   ;; Disable newline visualization
   (setq whitespace-style '(face tabs tab-mark spaces space-mark trailing))
   )

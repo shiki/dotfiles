@@ -50,7 +50,10 @@ This function should only modify configuration layer settings."
      php
      html
      osx
-     org
+     (org :variables
+          org-enable-modern-support t
+          org-startup-indented t
+          org-modern-block-indent t)
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -594,13 +597,6 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  ;; Org-modern indentation settings
-  (setq org-modern-block-indent t
-        org-startup-indented t)    ; to enable org-indent-mode by default
-
-  ;; Enable org-modern in org buffers
-  (add-hook 'org-mode-hook #'org-modern-mode)
-
   ;; Disable newline visualization
   (setq whitespace-style '(face tabs tab-mark spaces space-mark trailing))
   )

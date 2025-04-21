@@ -61,7 +61,22 @@ This function should only modify configuration layer settings."
           org-want-todo-bindings t
           ;; Control spacing between headings and list items (nil: no blank lines)
           org-blank-before-new-entry '((heading . nil)
-                                     (plain-list-item . nil)))
+                                     (plain-list-item . nil))
+          ;; TODO states configuration
+          org-todo-keywords '((sequence "TODO(t)" "STARTED(s)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)"))
+          org-modern-todo-faces
+          '(("TODO" :foreground "#ff9a9e" :weight bold)      ; Pastel coral - soft but noticeable
+            ("STARTED" :foreground "#87bdde" :weight bold)   ; Pastel blue - gentle active state
+            ("WAITING" :foreground "#ffd484" :weight bold)   ; Pastel gold - soft pause state
+            ("DONE" :foreground "#98e4a6" :weight bold)      ; Pastel green - gentle completion
+            ("CANCELLED" :foreground "#c8a2c8" :weight bold)) ; Pastel lavender - soft dismissal
+          ;; Match selection menu colors with modern faces
+          org-todo-keyword-faces
+          '(("TODO" :foreground "#ff9a9e" :weight bold)
+            ("STARTED" :foreground "#87bdde" :weight bold)
+            ("WAITING" :foreground "#ffd484" :weight bold)
+            ("DONE" :foreground "#98e4a6" :weight bold)
+            ("CANCELLED" :foreground "#c8a2c8" :weight bold)))
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

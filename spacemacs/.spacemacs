@@ -53,7 +53,8 @@ This function should only modify configuration layer settings."
      (org :variables
           org-enable-modern-support t
           org-startup-indented t
-          org-modern-block-indent t)
+          org-modern-block-indent t
+          org-want-todo-bindings t)
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

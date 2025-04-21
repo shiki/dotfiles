@@ -51,10 +51,15 @@ This function should only modify configuration layer settings."
      html
      osx
      (org :variables
+          ;; Enable modern styling for org-mode (cleaner headings, nicer bullets)
           org-enable-modern-support t
+          ;; Enable indentation by default in org files
           org-startup-indented t
+          ;; Enable modern block styling and indentation
           org-modern-block-indent t
+          ;; Enable quick TODO bindings (t: cycle, T: new heading, M-t: new subheading)
           org-want-todo-bindings t
+          ;; Control spacing between headings and list items (nil: no blank lines)
           org-blank-before-new-entry '((heading . nil)
                                      (plain-list-item . nil)))
      ;; (shell :variables

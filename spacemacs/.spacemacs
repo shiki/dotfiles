@@ -54,7 +54,9 @@ This function should only modify configuration layer settings."
           org-enable-modern-support t
           org-startup-indented t
           org-modern-block-indent t
-          org-want-todo-bindings t)
+          org-want-todo-bindings t
+          org-blank-before-new-entry '((heading . nil)
+                                     (plain-list-item . nil)))
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

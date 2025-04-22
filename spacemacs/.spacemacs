@@ -622,6 +622,9 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
   ;; Disable newline visualization
   (setq whitespace-style '(face tabs tab-mark spaces space-mark trailing))
+
+  ;; Enable word wrap globally for all text modes
+  (add-hook 'text-mode-hook #'visual-line-mode)
   )
 
 

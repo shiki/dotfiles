@@ -629,6 +629,8 @@ before packages are loaded."
   ;; Enable magit-delta-mode automatically when magit starts
   (use-package magit-delta
     :hook (magit-mode . magit-delta-mode))
+  ;; Disable logging of DONE time for org-mode TODOs
+  (setq org-log-done nil)
   )
 
 

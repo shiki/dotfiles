@@ -628,7 +628,15 @@ before packages are loaded."
 
   ;; Enable magit-delta-mode automatically when magit starts
   (use-package magit-delta
-    :hook (magit-mode . magit-delta-mode))
+    :hook (magit-mode . magit-delta-mode)
+    :config
+    (setq magit-delta-delta-args '("--24-bit-color" "always"
+                                  "--syntax-theme" "Monokai Extended"
+                                  "--plus-style" "syntax #2A4D2A"      ; Dark green background
+                                  "--plus-emph-style" "syntax #48694A" ; Lighter green for changed words
+                                  "--minus-style" "syntax #4D2A2A"     ; Dark red background
+                                  "--minus-emph-style" "syntax #694A4A"))) ; Lighter red for changed words
+
   ;; Disable logging of DONE time for org-mode TODOs
   (setq org-log-done nil)
   )

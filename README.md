@@ -178,8 +178,12 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ## Spacemacs
 
 1. Install [Emacs-plus](https://github.com/syl20bnr/spacemacs#macos). 
-2. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
-3. Symlink `.spacemacs`
+2. Install [delta](https://github.com/dandavison/delta). This is used for [magit-delta](https://github.com/dandavison/magit-delta).
+    ```bash
+    brew info delta
+    ```
+3. Follow instructions in [here](https://github.com/syl20bnr/spacemacs#install) to install Spacemacs.
+4. Symlink `.spacemacs`
 
    ```bash
    mv .spacemacs .spacemacs.bak

@@ -94,7 +94,7 @@ This function should only modify configuration layer settings."
    ;; `dotspacemacs/user-config'. To use a local version of a package, use the
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '(org-modern)
+   dotspacemacs-additional-packages '(org-modern magit-delta)
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -625,6 +625,10 @@ before packages are loaded."
 
   ;; Enable word wrap globally for all text modes
   (add-hook 'text-mode-hook #'visual-line-mode)
+
+  ;; Enable magit-delta-mode automatically when magit starts
+  (use-package magit-delta
+    :hook (magit-mode . magit-delta-mode))
   )
 
 

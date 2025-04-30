@@ -639,6 +639,12 @@ before packages are loaded."
 
   ;; Disable logging of DONE time for org-mode TODOs
   (setq org-log-done nil)
+
+  ;; Disable org-modern checkbox styling to use default Org mode behavior
+  (use-package org-modern
+    :config
+    (setq org-modern-checkbox nil))
+
   )
 
 

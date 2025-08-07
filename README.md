@@ -15,9 +15,7 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Git](#git)
 - [VS Code](#vs-code)
 - [Spacemacs](#spacemacs)
-- [Android Development](#android-development)
-    - [Android Studio](#android-studio)
-    - [Android Dev Tools](#android-dev-tools)
+- [Android](#android)
 - [Flutter](#flutter)
 - [PHP Development](#php-development)
 - [Ansible](#ansible)
@@ -90,6 +88,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
     mv ~/.zprofile ~/.zprofile.bak
     ln -s ~/.files/.zprofile ~/.zprofile
+
+    mv ~/.zshenv ~/.zshenv.bak
+    ln -s ~/.files/.zshenv ~/.zshenv
     ```
 
 ## Alfred
@@ -191,25 +192,26 @@ defaults write -g ApplePressAndHoldEnabled -bool false
    ln -s .files/spacemacs/.spacemacs .spacemacs
    ```
 
-## Android Development
+## Android 
 
-### Android Studio
+1. Install Android Studio via Homebrew:
 
-Install Android Studio via Homebrew:
+    ```bash
+    brew install android-studio
+    ```
 
-```bash
-brew install android-studio
-```
+2. In Android Studio, install the command line tools through Settings → Languages & Frameworks → Android SDK → SDK Tools.
 
-### Android Dev Tools
+3. Install other tools.
 
-```bash
-brew install scrcpy
-```
+    ```bash
+    brew install scrcpy
+    ```
 
 ## Flutter
 
-Follow the [installation instructions](https://docs.flutter.dev/get-started/install) to install the dependencies and the Flutter SDK.
+1. Follow the [installation instructions](https://docs.flutter.dev/get-started/install) to install the dependencies and the Flutter SDK.
+2. Run `Flutter Doctor` in VS Code to check for issues.
 
 ## PHP Development
 

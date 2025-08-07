@@ -18,6 +18,7 @@ Contains macOS configuration files for various apps and instructions for setting
 - [Android Development](#android-development)
     - [Android Studio](#android-studio)
     - [Android Dev Tools](#android-dev-tools)
+- [Flutter](#flutter)
 - [PHP Development](#php-development)
 - [Ansible](#ansible)
 - [Others](#others)

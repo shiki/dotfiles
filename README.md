@@ -39,7 +39,7 @@ Contains macOS configuration files for various apps and instructions for setting
 ### Homebrew Packages
 
 ```bash
-brew install alfred dropbox visual-studio-code cursor obsidian 
+brew install alfred dropbox visual-studio-code cursor obsidian chatgpt
 brew install arc google-chrome google-chrome@canary firefox 
 brew install notion zoom slack
 brew install sequel-ace

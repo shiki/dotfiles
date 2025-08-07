@@ -200,11 +200,6 @@ Install Android Studio via Homebrew:
 brew install android-studio
 ```
 
-Android Studio settings are synchronized using a git repo.
-
-1. Follow the instructions in [Share settings through a settings repository](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository).
-2. Use the `android-studio-settings` Github repo.
-
 ### Android Dev Tools
 
 ```bash

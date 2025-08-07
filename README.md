@@ -206,6 +206,10 @@ brew install android-studio
 brew install scrcpy
 ```
 
+## Flutter
+
+Follow the [installation instructions](https://docs.flutter.dev/get-started/install) to install the dependencies and the Flutter SDK.
+
 ## PHP Development
 
 1. Install `php`

@@ -138,3 +138,9 @@ alias rgx="rake dependencies && git submodule update && xed ."
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/shiki/.dart-cli-completion/zsh-config.zsh ]] && . /Users/shiki/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

@@ -226,8 +226,12 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ## Flutter
 
-1. Follow the [installation instructions](https://docs.flutter.dev/get-started/install) to install the dependencies and the Flutter SDK.
-2. Run `Flutter Doctor` in VS Code to check for issues.
+1. Install [FVM](https://fvm.app/documentation/getting-started).
+
+    ```bash
+    brew tap leoafarias/fvm
+    brew install fvm
+    ```
 
 ## PHP Development
 

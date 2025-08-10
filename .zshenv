@@ -1,7 +1,7 @@
 
-# Flutter
-# https://docs.flutter.dev/get-started/install/macos/mobile-ios#add-flutter-to-your-path
-export PATH=$HOME/development/flutter/bin:$PATH
+# Flutter (FVM)
+# https://fvm.app/documentation/getting-started
+export PATH="$HOME/fvm/default/bin:$PATH"
 
 # Android SDK
 # https://developer.android.com/studio/command-line/variables

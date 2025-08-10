@@ -47,6 +47,7 @@ brew install adobe-acrobat-reader handbrake
 brew install git lnav tree wget gh
 brew install proxyman
 brew install zoxide fzf
+brew install docker-desktop
 
 # Install JuliaMono Typeface (https://juliamono.netlify.app/)
 brew install --cask font-juliamono

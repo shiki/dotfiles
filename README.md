@@ -93,6 +93,21 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
     mv ~/.zshenv ~/.zshenv.bak
     ln -s ~/.files/.zshenv ~/.zshenv
     ```
+3. Install Meslo Nerd Font for Powerlevel10k.
+
+    ```bash
+    brew install --cask font-meslo-lg-nerd-font
+    ```
+
+4. Configure Terminal to use the Meslo Nerd Font in Preferences → Profiles → Text → Font → Change to "MesloLGS NF".
+
+5. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme (recommended for vi-mode support).
+
+    ```bash
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    ```
+
+    Run `p10k configure` to customize the prompt if needed. 
 
 ## Alfred
 

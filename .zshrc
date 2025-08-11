@@ -110,6 +110,10 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
+
+ # Source private local-only config if it exists
+ [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(zoxide init zsh)"
